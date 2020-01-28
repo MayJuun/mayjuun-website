@@ -1,4 +1,4 @@
-baseURL = "https://www.mayjuun.com/"
+baseURL = "https://mayjuun.com/"
 languageCode = "en-us"
 title = "MayJuun"
 theme = "timer-hugo"
