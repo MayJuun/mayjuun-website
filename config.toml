@@ -1,0 +1,86 @@
+baseURL = "https://www.mayjuun.com/"
+languageCode = "en-us"
+title = "MayJuun"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.nav]]
+name    = "About"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "Services"
+url     = "service"
+weight  = 3
+# [[menu.nav]]
+# name    = "Gallery"
+# url     = "gallery"
+# weight  = 4
+# [[menu.nav]]
+# name    = "Blog"
+# url     = "blog"
+# weight  = 5
+[[menu.nav]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Timer-Hugo theme"
+author = "MayJuun"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "MAYJUUN"
+description = "INTERFACES BY CLINICIANS, FOR CLINICIANS"
+# button
+btn     = true
+btnText = "Contact Us"
+btnURL  = "contact" 
+
+# flip text
+[[params.banner.flipText]]
+title   = "LESS CLICKING"
+[[params.banner.flipText]]
+title   = "MORE DOCTORING"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT US"
+content = "Founded by clinicians, our mission is to streamline the user experience of the technology seen in healthcare. We make healthcare-focused apps so that you can spend your time at the bedside, not the computer."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "WANT TO LEARN MORE?"
+content = "Tell us your story"
+btnText = "Contact Us"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+# [params.portfolio]
+# enable  = false
+# title   = "Latest Projects"
+# subtitle= "Here are some of our latest projects."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-twitter"
+url = "#"

@@ -1,0 +1,27 @@
+enable: true
+title: By clinicians, for clinicians
+description: >
+  We are a mix of clinicians, developers, and clinician-developers who were fed up with the state of technology in healthcare.
+  <br>
+  <br>
+  The push towards implementing electronic health records has led to a system where a single shift can average <a href="https://www.ncbi.nlm.nih.gov/pubmed/24060331" target="_blank">4,000 clicks</a>. This has led to technology built "for billing" rather than "for health," and it's causing <a href="https://khn.org/news/death-by-a-thousand-clicks/" target="_blank">an epidemic of burnout</a> among providers. 
+  <br>
+  <br>
+  Thankfully, the technology landscape has changed. We now have the ability to take these designs into our own hands.
+image: images/about/about-company.jpg
+
+# todo: make aboutItems responsive to layout changes
+# Otherwise, aboutItems have to be very similar character lengths.
+# https://getbootstrap.com/docs/4.1/layout/grid/
+aboutItem:
+  - title: Why MayJuun?
+    description: >
+      We know what it's like to be frustrated by poorly-designed tools and layouts
+
+  - title: What You Get
+    description: >
+      A team of designers, developers, and clinicians working together with you on your idea
+
+  - title: How It Works
+    description: >
+      We'll show you what we've made and work with you to design/build the layouts you want

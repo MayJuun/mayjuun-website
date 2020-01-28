@@ -1,0 +1,34 @@
+enable: true
+title: Features
+# subtitle: >
+#   Usability first
+item:
+  - icon: ion-android-phone-portrait
+    title: Mobile friendly
+    description: >
+      We create Android/iOS layouts using a single code base
+
+  - icon: ion-ios-pulse-strong
+    title: Made by clinicians
+    description: >
+      Our team is comprised of clinicians, developers, and clinician-developers
+
+  - icon: ion-mouse
+    title: So you click less
+    description: >
+      4,000 clicks per shift is too much
+
+  - icon: ion-medkit
+    title: And focus on care
+    description: >
+      You went into healthcare for the patients, not the data entry
+
+  - icon: ion-erlenmeyer-flask-bubbles
+    title: Well tested
+    description: >
+      Clinician-developers are ideal for rapid prototyping and iteration
+
+  - icon: ion-stats-bars
+    title: Better visualizations
+    description: >
+      Data tables can only take you so far. We know what's signal vs noise

@@ -1,0 +1,24 @@
+enable: true
+title: OUR SERVICES
+subtitle: We strive to help you create, test, and deploy the interfaces you want for the bedside.
+image: images/team.jpg
+serviceItem:
+  - icon: ion-ios-lightbulb
+    title: DESIGN
+    description: >
+      If you have an idea or interest, we can work with you on creating layouts and interactions based on that idea
+
+  - icon: ion-code-working
+    title: DEVELOP
+    description: >
+      We create apps for Android and iOS environments using a single code base
+
+  - icon: ion-erlenmeyer-flask-bubbles
+    title: TEST
+    description: >
+      We can provide heuristic feedback, testing, and tips from the perspective of the clinician
+
+  - icon: ion-android-done-all
+    title: INTEGRATE
+    description: >
+      We can work with you to help integrate your design/idea into a clinical workflow
