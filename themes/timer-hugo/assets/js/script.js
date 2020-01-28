@@ -63,7 +63,7 @@
         },
         messages: {
             user_name: {
-                required: "Come on, you have a name don't you?",
+                required: "Please provide your name",
                 minlength: "Your name must consist of at least 2 characters"
             },
             email: {
