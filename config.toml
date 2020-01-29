@@ -36,7 +36,7 @@ dateFormat = "6 January 2006"
 description = "Timer-Hugo theme"
 author = "MayJuun"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-50100304-2"
 
 # Banner Section
 [params.banner]
@@ -66,7 +66,7 @@ image   = "images/about/about.jpg"
 [params.cta]
 enable  = true
 title   = "WANT TO LEARN MORE?"
-content = "Tell us your story"
+# content = "Tell us your story"
 btnText = "Contact Us"
 btnURL  = "/contact"
 
@@ -77,10 +77,10 @@ btnURL  = "/contact"
 # subtitle= "Here are some of our latest projects."
 
 # social icon
-[[params.socialIcon]]
-icon = "ion-social-linkedin"
-url = "#"
+# [[params.socialIcon]]
+# icon = "ion-social-linkedin"
+# url = "#"
 
-[[params.socialIcon]]
-icon = "ion-social-twitter"
-url = "#"
+# [[params.socialIcon]]
+# icon = "ion-social-twitter"
+# url = "#"
