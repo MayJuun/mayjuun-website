@@ -2,3 +2,4 @@
 	path = public
 	url = https://github.com/MayJuun/MayJuun.github.io.git
 	branch = master
+	ignore = dirty
