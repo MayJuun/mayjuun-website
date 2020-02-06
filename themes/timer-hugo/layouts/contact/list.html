@@ -83,34 +83,37 @@
                 </div> -->
             </div>
         </div>
-        <!-- <div class="row address-details">
+        {{/*  <div class="row address-details">
             <div class="col-lg-3 col-sm-6">
                 <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
                     <i class="ion-ios-location-outline"></i>
                     {{ with .Site.Data.contact.officeAddress1 }}<h5>{{ . }}</h5>{{ end }}
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
-                    <i class="ion-ios-location-outline"></i>
-                    {{ with .Site.Data.contact.officeAddress2 }}<h5>{{ . }}</h5>{{ end }}
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
-                    <i class="ion-ios-email-outline"></i>
-                    <p>{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}
-                        <br>{{ with .Site.Data.contact.mail2 }}{{ . }}{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
+    </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+            <i class="ion-ios-location-outline"></i>
+            {{ with .Site.Data.contact.officeAddress2 }}<h5>{{ . }}</h5>{{ end }}
+        </div>
+    </div> */}}
+    <br> <br>
+    <div class="col-lg-3 col-sm-6">
+        <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
+            <i class="ion-ios-email-outline"></i>
+            <p>Email us directly: <br>
+                <a
+                    href="mailto:{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}">{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}</a>
+                <br>{{ with .Site.Data.contact.mail2 }}{{ . }}{{ end }}</p>
+        </div>
+    </div>
+    {{/*  <div class="col-lg-3 col-sm-6">
                 <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
                     <i class="ion-ios-telephone-outline"></i>
                     <p>{{ with .Site.Data.contact.phone1 }}{{ . }}{{ end }}
-                        <br>{{ with .Site.Data.contact.phone2 }}{{ . }}{{ end }}</p>
-                </div>
-            </div>
-        </div> -->
+    <br>{{ with .Site.Data.contact.phone2 }}{{ . }}{{ end }}</p>
+    </div>
+    </div> */}}
+    </div>
     </div>
 </section>
 {{ "<!-- Contact Section End -->" | safeHTML }}

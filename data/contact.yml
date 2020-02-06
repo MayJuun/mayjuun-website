@@ -1,14 +1,14 @@
 enable: true
 contactFormTitle: CONTACT US
 contactFormSubtitle: >
-  Let us know about you and your needs/interests. We'd love to help
+  Let us know about you and your needs/interests. We'd love to help.
 
 # mapTitle: FIND US
 # mapSubtitle: >
 #   Si aute quis eu proident o cupidatat ne anim nescius, et est praesentibus, o quorum vidisse expetendis, nostrud eram quibusdam ad nam nostrud ubi.
 # officeAddress1: ___
 # officeAddress2: ___
-# mail1: info@mayjuun.com
+mail1: info@mayjuun.com
 # mail2: ___
 # phone1: ___
 # phone2: ___
