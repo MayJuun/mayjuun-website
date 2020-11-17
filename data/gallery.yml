@@ -1,3 +1,11 @@
-enable: false
-# galleryImages :
-#   - image : images/portfolio/item-_.jpg
+enable: true
+galleryImages :
+  - image : images/gallery/mayjuun_bg_dark.png
+  - image : images/gallery/mayjuun_bg_contrast.png
+  - image : images/gallery/mayjuun_bg_light.png
+  - image : images/gallery/fhir-fli-logo.png
+  - image : images/gallery/fhir-fli-firefly-only.png
+  - image : images/gallery/fhir-fli-text-only.png
+  - image : images/portfolio/demo-get-fluttered.gif
+  - image : images/portfolio/demo-prapare.gif
+  - image : images/portfolio/demo-symptom-tracker.gif

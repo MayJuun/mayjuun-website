@@ -15,17 +15,21 @@ name = "Services"
 url = "service"
 weight = 3
 # [[menu.nav]]
-# name = "Gallery"
-# url = "gallery"
+# name = "Flutter Projects"
+# url = "portfolio"
 # weight = 4
+[[menu.nav]]
+name = "Gallery"
+url = "gallery"
+weight = 5
 # [[menu.nav]]
 # name    = "Blog"
 # url     = "blog"
-# weight  = 5
+# weight  = 6
 [[menu.nav]]
 name = "Contact"
 url = "contact"
-weight = 6
+weight = 7
 
 # Site Params
 [params]
@@ -72,9 +76,9 @@ btnURL = "/contact"
 
 # Portfolio Section On Homepage
 # [params.portfolio]
-# enable  = false
-# title   = "Latest Projects"
-# subtitle= "Here are some of our latest projects."
+# enable = true
+# title = "Flutter Projects"
+# subtitle = "Here are some of our latest projects built with Flutter."
 
 # social icon
 # [[params.socialIcon]]
