@@ -42,6 +42,23 @@ a:hover {
   text-decoration: none;
 }
 
+.img-left{
+  float: left;
+  text-align: center;
+    padding: 20px;
+}
+
+.img-right{
+  float: right;
+  text-align: center;
+    padding: 20px;
+}
+
+.img-center{
+text-align: center;
+    padding: 20px;
+}
+
 .slick-slide:focus {
   outline: 0;
 }
@@ -496,7 +513,7 @@ a:hover {
 }
 
 figure {
-  background: #fff;
+  background: transparent;
   margin-bottom: 45px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
 }
