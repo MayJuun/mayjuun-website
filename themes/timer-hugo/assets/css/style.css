@@ -4,7 +4,9 @@
 
 body {
   font-family: "Karma", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #F9F9F9;
 }
 
 h1,
@@ -14,7 +16,8 @@ h4,
 h5,
 h6 {
   font-family: "Comfortaa", sans-serif;
-  margin-top: 30px;
+  margin-top: .1em;
+  margin-bottom: .4em;
 }
 
 h2 {
@@ -23,17 +26,52 @@ h2 {
 
 p {
   font-family: "Karma", sans-serif;
-  line-height: 28px;
-  font-size: 18px;
-  font-weight: 300;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-body {
-  background: #ffffff;
+a {
+color: #2E72B1;
+font-size: 115%;
+font-weight: 500;
+text-decoration: underline;
 }
+
 
 ul {
   padding-left: 0;
+}
+
+pre code {
+  background-color: #E5F2E6;
+}
+
+pre {
+  min-width: 150px;
+  max-width: 980px;
+  margin: 1em 2em;
+  font-size: 90%;
+  font-family: "Karma", sans-serif;
+  background-color: #E5F2E6;
+  border-radius: 3px;
+}
+
+code {
+  box-sizing: border-box;
+  width: inherit;
+  height: inherit;
+  color: #39433A;
+  background-color: #E5F2E6;
+  font-weight: 500;
+  /* font-family: "Livvic", sans-serif; */
+  font-size: .9em;
+}
+
+@media (max-width: 767px) {
+  .code {
+    padding: 15px;
+  }
 }
 
 ul li {
@@ -69,9 +107,16 @@ text-align: center;
   text-align: center;
 }
 
+.youtube-player {
+  width: 75vw;
+  height: calc(75vw/1.77);
+}
 
-.youtube-player{
-margin: 20px;
+@media (min-width: 900px) {
+  .youtube-player {
+    width: 60vw;
+    height: calc(60vw/1.77); 
+  }
 }
 
 .slick-slide:focus {
@@ -530,15 +575,19 @@ margin: 20px;
 figure {
   background: transparent;
   margin-bottom: 45px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.06); */
 }
 
 figure .img-wrapper {
+  padding: 20px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   transform: scale3d(1, 1, 1);
   transition: transform 400ms;
 }
@@ -969,12 +1018,14 @@ article {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eee;
+  /* border-left: 5px solid #eee; */
 }
 
 .single-post .post-content ol li,
 .single-post .post-content ul li {
-  color: #666;
+  /* font-size: ; */
+  color: #787878;
+  font-weight: 400;
 }
 
 .single-post .media {

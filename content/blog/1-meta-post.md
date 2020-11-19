@@ -11,7 +11,7 @@ tags: ["meta","howto","informatics","website","hugo"]
 
 Knowledge is power...and best shared with others. This is the place where any informatician, innovator, or entrepreneur can crowd-source contribute and build upon each others' knowledge.
 
-Many of the things I post here will be open-source and moderately technical, but that's only my preference. If there's something else you want to share about healthcare, informatics, innovation, or entrepreneurship, please feel free. Just don't use this as a shameless plug for your work. I won't accept those submissions.
+Many of the things I post here will be open-source and moderately technical, but that's only my preference. If there's something else you want to share about healthcare, informatics, innovation, or entrepreneurship, please feel free. Try to add/share some knowledge if you can...don't just post something that's a shameless plug for your work. I won't accept those submissions.
 
 By the end of this post, you'll learn:
 
@@ -20,13 +20,13 @@ By the end of this post, you'll learn:
 
 ## Why So Meta
 
-There's a reason why this is called a 'meta-blog'. The term [meta] is Greek for 'after' or 'beyond', but the true beauty of this word is its implied transcendence. Take the following:
+There's a reason why this will be a 'meta-blog'. Our plan is to teach and share topics *about* another topic. The term [meta] is Greek for 'after' or 'beyond', but the true beauty of this word is its implied transcendence. Take the following:
 
 1. meta-data == data about data
 2. meta-analysis == analysis of multiple analyses
 3. meta-cognition == thinking about thought
 
-Put simply, if you are shifting focucs from the topic at hand to the factors that surround it, then that's meta. _You are essentially 'breaking the fourth wall' on the topic._
+Put simply, if you are shifting focus from the topic at hand to the factors that surround it, then that's meta. **You are essentially 'breaking the fourth wall' on the topic.**
 
 It's fun to be meta. Even the tabletop / D&D podcast [The Adventure Zone] will regularly host 'meta-episodes' (their title), where they talk about the overarching story in general and provide Q&A. If you want to see a meta-episode in action, just look for [The The Adventure Zone Zone].
 
