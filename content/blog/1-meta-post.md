@@ -1,6 +1,6 @@
 ---
 title: "A Meta-Post for a Meta-Blog"
-date: 2020-11-19T04:01:40Z
+date: 2020-11-19T12:43:11Z
 type: post
 image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
@@ -52,14 +52,14 @@ The entire website exists as two Github repos:
 1. the repo where I make all changes: [mayjuun-website]  <--- *fork this repo!!!*
 2. an auto-updated repo that makes a [GitHub page]
 
-On my end, I make changes to repo #2 via two convenience scripts ([update], [deploy]) to automate my Git commands. All I have to do is open a terminal and type:
+On my end, repo #2 is what this website actually displays. I make use of two convenience scripts ([update], [deploy]) to automate all my Git commands for this repo. All I have to do is open a terminal in ths mayjuun-website folder and type:
 
 ```terminal
 ./update.sh
 ./deploy.sh
 ```
 
-...and I'm done. Website is accurate, with all changes implemented and tracked by Git.
+...and I'm done. Website is accurate, with all changes implemented and all my layout/content changes tracked in their own separate repo (#1).
 
 ## Creating a Post
 
@@ -72,9 +72,9 @@ Go to the new fork you just created, and clone it to your desktop.
 
 In terminal, in that folder, create a [new branch], and make whatever edits you want in your favorite IDE, such as [VS Code].
 
-With everything set-up as is, I just need to create a new Markdown file in my blog directory `/content/blog/##-MY-POST.md`. Usually, I'll just copy the previous post, update the tags/images, and delete all the text. I'll typically put images in the `/static/images/blog/##/` folder, to keep things organized. Finally, if you have Hugo installed, you can run `hugo serve -D` in terminal to see your changes implemented each time you save a file.
+Create a new Markdown file in the blog directory `/content/blog/##-MY-POST.md`. Usually, I'll just copy the previous post, update the tags/images at the header, and delete all the text. I put all images for that post in the `/static/images/blog/##/` folder to keep things organized. Finally, if you have Hugo installed as shown below, you can run `hugo serve -D` in terminal at the mayjuun-website folder to see a local copy of this site. This way, each time you save a file, you can see all layout changes in real time.
 
-The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at my other `.md` blog posts in this repo for formatting tips. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing, use this snippet with `img-right` or `img-left` based on intended alignment and with your custom `width`:
+The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at the other `.md` posts as well for tips on handling hyperlinks, videos, etc. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing instead of the default `!(title)[IMAGE.png]`, use this snippet with `img-right`, `img-left`, or `img-center` based on intended alignment and with your custom `width` for that image:
 
 ```hugo
 {{</* figure src="/images/blog/YOUR_IMAGE.PNG" title="YOUR TITLE" class="img-right" width="250" */>}}
@@ -147,7 +147,13 @@ cd ~/dev
 hugo new site quickstart
 ```
 
-7. Finally, run a local server with the command line:
+7. Navigate to the new folder you created:
+
+```terminal
+cd quickstart
+```
+
+8. And run a local server with the command line:
 
 ```terminal
 hugo serve -D
