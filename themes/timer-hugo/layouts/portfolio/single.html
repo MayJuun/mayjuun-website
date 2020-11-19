@@ -28,7 +28,7 @@
                 {{ with .Params.image }}
                 <div class="work-single-image">
                     <!-- Work Single Image -->
-                    <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image">
+                    <img class="img-fluid w-50" src="{{ . | absURL }}" alt="work-single-image">
                 </div>
                 {{ end }}
                 <!-- work single Content -->
@@ -50,7 +50,13 @@
                     <h6>{{ . }}</h6>
                     {{ end }}
                     <h5>category</h5>
-                    <h6>Investment, Business</h6>
+                    <h6>
+                        {{ with .Params.category }}
+                        <span>
+                            {{ delimit . ", " }}
+                        </span>
+                        {{ end }}
+                    </h6>
                     {{ with .Params.location }}
                     <h5>locations</h5>
                     <h6>{{ . }}</h6>

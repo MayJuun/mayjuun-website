@@ -61,6 +61,15 @@ text-align: center;
     padding: 20px;
 }
 
+.blog-post-image{
+text-align: center;
+}
+
+.work-single-image{
+  text-align: center;
+}
+
+
 .youtube-player{
 margin: 20px;
 }
@@ -739,7 +748,6 @@ article {
 .blog-post-image {
   margin-top: 20px;
   margin-bottom: 20px;
-  max-width: 400px;
 }
 
 .sidebar {
