@@ -1,6 +1,6 @@
 ---
 title: "A Meta-Post for a Meta-Blog"
-date: 2020-11-19T12:56:16Z
+date: 2020-11-19T13:01:25Z
 type: post
 image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
@@ -74,7 +74,7 @@ In terminal, in that folder, create a [new branch], and make whatever edits you 
 
 Create a new Markdown file in the blog directory `/content/blog/##-MY-POST.md`. Usually, I'll just copy the previous post, update the tags/images at the header, and delete all the text. I put all images for that post in the `/static/images/blog/##/` folder to keep things organized. Finally, if you have Hugo installed as shown below, you can run `hugo serve -D` in terminal at the mayjuun-website folder to see a local copy of this site. This way, each time you save a file, you can see all layout changes in real time.
 
-The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at the other `.md` posts as well for tips on handling hyperlinks, videos, etc. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing instead of the default `!(title)[IMAGE.png]`, use this snippet with `img-right`, `img-left`, or `img-center` based on intended alignment and with your custom `width` for that image:
+The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at the other `.md` posts as well for tips on handling hyperlinks, videos, etc. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing instead of the default `![title](IMAGE.png)`, use this snippet with `img-right`, `img-left`, or `img-center` based on intended alignment and with your custom `width` for that image:
 
 ```hugo
 {{</* figure src="/images/blog/YOUR_IMAGE.PNG" title="YOUR TITLE" class="img-right" width="250" */>}}
