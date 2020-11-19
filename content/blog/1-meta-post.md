@@ -1,6 +1,6 @@
 ---
 title: "A Meta-Post for a Meta-Blog"
-date: 2020-11-19T12:43:11Z
+date: 2020-11-19T12:55:20Z
 type: post
 image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
@@ -26,23 +26,23 @@ There's a reason why this is called a 'meta-blog'. The term [meta] is Greek for 
 2. meta-analysis == analysis of multiple analyses
 3. meta-cognition == thinking about thought
 
-Put simply, if you are shifting focucs from the topic at hand to the factors that surround it, then that's meta. _(Incidentally, breaking the fourth wall counts as [meta-theatrical])._
+Put simply, if you are shifting focucs from the topic at hand to the factors that surround it, then that's meta. _You are essentially 'breaking the fourth wall' on the topic._
 
-It's fun to be meta on occasion. Even [The Adventure Zone] -- a tabletop / D&D podcast -- will occasionally host a 'meta-episode', where they discuss the overarching story and path without fiction and answer questions from fans. BTW, these meta-episodes have excellent titles: [The The Adventure Zone Zone]
+It's fun to be meta. Even the tabletop / D&D podcast [The Adventure Zone] will regularly host 'meta-episodes' (their title), where they talk about the overarching story in general and provide Q&A. If you want to see a meta-episode in action, just look for [The The Adventure Zone Zone].
 
 ## Clinical Informatics: A 'Meta-Specialty'
 
-The Clinical Informatics Subspecialty (CIS) expands into all areas of healthcare. The Accreditation Council for Graduate Medical Education (ACGME) [defines CIS] as "the subspecialty of all medical specialties that transforms healthcare." I believe Clinical Informatics is a meta-specialty...not a subspecialty. We all have so many strengths/passions/interests, clinical backgrounds, and career paths that it can be difficult to characterize succinctly. [KOI Pond] sought to do this, but even that has its drawbacks.
+The Clinical Informatics Subspecialty (CIS) is incredibly broad. The Accreditation Council for Graduate Medical Education (ACGME) [defines it] as "the subspecialty of all medical specialties that transforms healthcare." Personally, I think Clinical Informatics is a meta-specialty...not a subspecialty. We all have so many strengths / passions / interests, clinical backgrounds, and career paths that it can be difficult to characterize succinctly. [KOI Pond] was created for this very purpose.
 
 ---
 
 ## The Meta-Blog
 
-Now with all of that out of the way, let me show you how to contribute to this blog and how to make a website.
+Now with all of that meta stuff out of the way, let me show you how to contribute to this blog and how to make a website.
 
 ## Contributing to This Blog
 
-Anyone can make a static website these days, and if you build upon open-source, the path forward can be very rewarding. I\'m using the open-source static site generator called [Hugo], implemented with a [custom open-source theme] ([+ my own mods]).
+Anyone can make a static website these days, and if you crowd-source build on an open-source foundation, the path forward can be very rewarding. I\'m using the open-source static site generator called [Hugo], implemented with a [custom open-source theme] ([+ my own mods]).
 
 If you've never worked with GitHub Pull Requests, start by watching this 2 minute video:
 {{< youtube 8lGpZkjnkt4 >}}
