@@ -1,6 +1,6 @@
 ---
 title: "A Meta-Post for a Meta-Blog"
-date: 2020-11-19T13:01:25Z
+date: 2020-11-19T13:04:19Z
 type: post
 image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
@@ -159,7 +159,7 @@ cd quickstart
 hugo serve -D
 ```
 
-This will run your site in fast render mode (which is the `-D` flag). You can access this site when the serve is running by going to `https://localhost:1313` in your preferred web browser. If you ran this same command `hugo serve -D` in another folder, such as where you forked/cloned my [mayjuun-website] repo, then you can run a local version of that website instead. As you make changes to the site locally, the browser will automatically update each time a file is saved.
+This will run your site in fast render mode (which is the `-D` flag). You can access this site when the server is running by going to `https://localhost:1313` in your preferred web browser. If you ran this same command `hugo serve -D` in another folder, such as where you forked/cloned my [mayjuun-website] repo, then you can run a local version of that website instead. As you make changes to the site locally, the browser will automatically update each time a file is saved.
 
 Finally, you can close your server by pressing `ctrl + c` in the terminal. That's it! You now have a static site!
 
