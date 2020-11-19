@@ -1,6 +1,6 @@
 ---
 title: "A Meta-Post for a Meta-Blog"
-date: 2020-11-19T12:55:20Z
+date: 2020-11-19T12:56:16Z
 type: post
 image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
@@ -171,7 +171,7 @@ Let me know if you want me to cover other content about static sites. Next post,
 [The Adventure Zone]: https://maximumfun.org/podcasts/adventure-zone/
 [The The Adventure Zone Zone]: https://theadventurezone.fandom.com/wiki/The_%22The_Adventure_Zone%22_Zone
 [meta-theatrical]: https://en.wikipedia.org/wiki/Fourth_wall
-[defines CIS]: https://www.acgme.org/Portals/0/PFAssets/ProgramRequirements/381_ClinicalInformatics_2020.pdf?ver=2020-06-29-163724-707
+[defines it]: https://www.acgme.org/Portals/0/PFAssets/ProgramRequirements/381_ClinicalInformatics_2020.pdf?ver=2020-06-29-163724-707
 [KOI Pond]: https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0039-1701021
 [Hugo]: https://gohugo.io/about/
 [custom open-source theme]: https://github.com/themefisher/timer-hugo
