@@ -1,6 +1,6 @@
 ---
 title: "A Meta-Post for a Meta-Blog"
-date: 2020-11-19T13:04:19Z
+date: 2020-11-19T13:15:36Z
 type: post
 image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
@@ -64,24 +64,24 @@ On my end, repo #2 is what this website actually displays. I make use of two con
 ## Creating a Post
 
 If you haven't yet, fork my [mayjuun-website] repo.
-{{< figure src="/images/blog/1-meta/fork-repo.png" width="600" >}}
+{{< figure src="/images/blog/1-meta/fork-repo.png" width="75%" >}}
 
 Go to the new fork you just created, and clone it to your desktop.
 
-{{< figure src="/images/blog/1-meta/clone-repo.png" width="600" >}}
+{{< figure src="/images/blog/1-meta/clone-repo.png" width="75%" >}}
 
 In terminal, in that folder, create a [new branch], and make whatever edits you want in your favorite IDE, such as [VS Code].
 
 Create a new Markdown file in the blog directory `/content/blog/##-MY-POST.md`. Usually, I'll just copy the previous post, update the tags/images at the header, and delete all the text. I put all images for that post in the `/static/images/blog/##/` folder to keep things organized. Finally, if you have Hugo installed as shown below, you can run `hugo serve -D` in terminal at the mayjuun-website folder to see a local copy of this site. This way, each time you save a file, you can see all layout changes in real time.
 
-The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at the other `.md` posts as well for tips on handling hyperlinks, videos, etc. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing instead of the default `![title](IMAGE.png)`, use this snippet with `img-right`, `img-left`, or `img-center` based on intended alignment and with your custom `width` for that image:
+The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at the other `.md` posts as well for tips on handling hyperlinks, videos, etc. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing instead of the default `![YOUR TITLE](YOUR-IMAGE.png)`, use this snippet with `img-right`, `img-left`, or `img-center` based on intended alignment and with your custom `width` for that image:
 
 ```hugo
-{{</* figure src="/images/blog/YOUR_IMAGE.PNG" title="YOUR TITLE" class="img-right" width="250" */>}}
+{{</* figure src="/images/blog/YOUR-IMAGE.PNG" title="YOUR TITLE" class="img-right" width="75%" */>}}
 ```
 
 Here's an example of what a Markdown file looks like
-{{< figure src="/images/blog/1-meta/vs-code.png" width="600" >}}
+{{< figure src="/images/blog/1-meta/vs-code.png" width="75%" >}}
 
 ---
 
