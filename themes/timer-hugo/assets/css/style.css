@@ -585,6 +585,7 @@ figure {
 figure .img-wrapper {
   padding: 20px;
   position: relative;
+  align-self: stretch;
   /* overflow: hidden; */
 }
 
@@ -616,6 +617,7 @@ figure .overlay {
   bottom: 0;
   padding: 10px;
   text-align: center;
+  z-index: 10;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
   transition: opacity 400ms;
@@ -631,6 +633,7 @@ figure .overlay a {
   margin: 4px;
   transform: scale3d(0, 0, 0);
   transition: all 400ms;
+  align-content: stretch;
 }
 
 figure .overlay a:hover {
@@ -642,7 +645,7 @@ figure .overlay:hover a {
 }
 
 figure .buttons {
-  margin-top: 40%;
+  margin-top: 20%;
   text-align: center;
   transform: translateY(-50%);
   display: inline-block;
@@ -997,8 +1000,14 @@ article {
   padding: 100px;
 }
 
-.gallery figure .buttons {
-  left: 40%;
+.gallery-row {
+  align-items: stretch;
+}
+
+.gallery-column {
+  align-self: stretch;
+  align-content: center;
+  /* vertical-align: center; */
 }
 
 .portfolio-meta span {
