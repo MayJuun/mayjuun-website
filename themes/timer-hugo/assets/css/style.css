@@ -501,12 +501,16 @@ text-align: center;
 
 .about-feature .block {
   color: #fff;
-  padding: 85px 65px;
-  float: left;
+  /* align-items: stretch; */
+  padding: 2em;
 }
 
 .about-feature .block p {
   font-weight: 300;
+}
+
+.about-item{
+color: #414141;
 }
 
 .about-feature .about-feature-1 {
@@ -514,11 +518,11 @@ text-align: center;
 }
 
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #727272;
 }
 
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #959595;
 }
 
 .works {

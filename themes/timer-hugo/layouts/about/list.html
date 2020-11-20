@@ -26,9 +26,9 @@
 {{ "<!--  Company Feature Section Start -->" | safeHTML }}
 <section class="about-feature clearfix">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row px-0">
             {{ range $index, $element := .Site.Data.about.aboutItem }}
-            <div class="col-lg-4 px-0">
+            <div class="col-lg-4 col-12 about-item px-0">
                 {{ $class := add $index 1 }}
                 <div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
                     {{ with .title }}<h2>{{ . }}</h2>{{ end }}
