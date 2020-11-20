@@ -90,7 +90,7 @@ Here's an example of what a Markdown file looks like
 When you're done editing, open a terminal in the repo's main folder and type:
 
 ```terminal
-hugo-touch.py content/blog/##-MY-POST.md
+python hugo-touch.py content/blog/##-MY-POST.md
 ```
 
 This runs [a simple python script] to update the `date:` timestamp at the top of the file. This timestamp represents the time a post has been finalized and is used to sort blog posts.
