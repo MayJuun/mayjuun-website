@@ -57,15 +57,13 @@ btnURL = "contact"
 # flip text
 [[params.banner.flipText]]
 title = "Less Clicking"
-# title = "LESS CLICKING"
 [[params.banner.flipText]]
 title = "More Doctoring"
-# title = "MORE DOCTORING"
 
 # Homepage About Section
 [params.about]
 enable = true
-title = "ABOUT US"
+title = "About Us"
 content = "Founded by clinicians, our mission is to streamline the user experience of the technology seen in healthcare. We make healthcare-focused apps so that you can spend your time at the bedside, not the computer."
 image = "images/about/about.jpg"
 
