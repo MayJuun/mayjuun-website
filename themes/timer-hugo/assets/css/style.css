@@ -297,11 +297,12 @@ text-align: center;
 
 .navbar .nav-item .nav-link {
   color: #444 !important;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
+  text-align: center;
   transition: .3s all;
-  text-transform: uppercase;
-  padding: 5px 15px;
+  /* text-transform: uppercase; */
+  padding: .1em 1em;
   display: block;
 }
 
@@ -776,6 +777,10 @@ article {
   margin-bottom: 25px;
 }
 
+.blog-content .blog-meta span:last-child:after {
+  content: '';
+}
+
 .blog-content .blog-meta span:after {
   content: '/';
   padding: 0 3px 0 6px;
@@ -997,7 +1002,7 @@ article {
 }
 
 .gallery {
-  padding: 100px;
+  padding: .1em;
 }
 
 .gallery-row {

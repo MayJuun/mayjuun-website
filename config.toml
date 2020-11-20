@@ -12,7 +12,7 @@ name = "Meta-Blog"
 url = "blog"
 weight = 2
 [[menu.nav]]
-name = "Flutter Projects"
+name = "Flutter Portfolio"
 url = "portfolio"
 weight = 3
 [[menu.nav]]
@@ -78,7 +78,7 @@ btnURL = "/contact"
 # Portfolio Section On Homepage
 # [params.portfolio]
 # enable = true
-# title = "Flutter Projects"
+# title = "Flutter Portfolio"
 # subtitle = "Here are some of our latest projects built with Flutter."
 
 # social icon
