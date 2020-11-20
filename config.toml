@@ -47,8 +47,8 @@ googleAnalitycsID = "UA-50100304-2"
 [params.banner]
 enable = true
 bgImage = "images/slider.jpg"
-heading = "MAYJUUN"
-description = "INTERFACES BY CLINICIANS, FOR CLINICIANS"
+heading = "MayJuun"
+description = "Interfaces by Clinicians, for Clinicians"
 # button
 btn = true
 btnText = "Contact Us"
@@ -56,9 +56,11 @@ btnURL = "contact"
 
 # flip text
 [[params.banner.flipText]]
-title = "LESS CLICKING"
+title = "Less Clicking"
+# title = "LESS CLICKING"
 [[params.banner.flipText]]
-title = "MORE DOCTORING"
+title = "More Doctoring"
+# title = "MORE DOCTORING"
 
 # Homepage About Section
 [params.about]

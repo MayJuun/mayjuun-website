@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css2?family=Nova+Slim);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
 
 body {
@@ -15,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Nova Slim", serif;
   margin-top: .1em;
   margin-bottom: .4em;
 }
@@ -223,7 +224,7 @@ text-align: center;
   font-size: 42px;
   font-weight: bold;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .global-page-header .breadcrumb {
@@ -366,12 +367,16 @@ text-align: center;
 #hero-area {
   background-repeat: no-repeat;
   background-position: center center;
+  /* background-blend-mode: darken; */
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
   color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   position: relative;
+}
+#hero-bg-image{
+  opacity: 0.5;
 }
 
 #hero-area:before {
@@ -391,22 +396,22 @@ text-align: center;
 }
 
 #hero-area h1 {
-  font-size: 40px;
+  font-size: 54px;
   line-height: 50px;
   color: #333;
   font-weight: 700;
   margin-bottom: 15px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #hero-area h2 {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 400;
   margin-bottom: 38px;
   line-height: 27px;
-  text-transform: uppercase;
-  color: #666;
-  font-family: 'Roboto', sans-serif;
+  /* text-transform: uppercase; */
+  color: #39433A;
+  font-family: 'Karma', sans-serif;
   margin-top: 25px;
 }
 
