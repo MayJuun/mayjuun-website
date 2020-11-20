@@ -72,7 +72,7 @@ image = "images/about/about.jpg"
 # Call to Action
 [params.cta]
 enable = true
-title = "WANT TO LEARN MORE?"
+title = "Want to Learn More?"
 # content = "Tell us your story"
 btnText = "Contact Us"
 btnURL = "/contact"
