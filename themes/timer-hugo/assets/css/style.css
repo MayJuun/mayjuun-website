@@ -107,6 +107,10 @@ text-align: center;
 text-align: center;
 }
 
+.post-image{
+  max-width: 275px;
+}
+
 .work-single-image{
   text-align: center;
 }
@@ -402,7 +406,7 @@ text-align: center;
   font-size: 54px;
   line-height: 50px;
   color: #333;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
   /* text-transform: uppercase; */
 }
@@ -1405,6 +1409,7 @@ article {
 
 .cd-headline.slide .cd-words-wrapper {
   color: #6CBA74;
+  font-weight: 200;
 }
 
 ul.social-icons {
