@@ -31,13 +31,13 @@ h2 {
 p {
   font-family: "Nunito", sans-serif;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 a {
 color: #2E72B1;
-font-size: 115%;
+font-size: 105%;
 font-weight: 500;
 text-decoration: underline;
 }
@@ -48,16 +48,17 @@ ul {
 }
 
 pre code {
-  background-color: #E5F2E6;
+  background-color: #E7E7E7;
 }
 
 pre {
+  padding-left: 5px;
   min-width: 150px;
   max-width: 980px;
-  margin: 1em 2em;
+  margin: 1em 3em;
   font-size: 90%;
   font-family: "Nunito", sans-serif;
-  background-color: #E5F2E6;
+  background-color: #E7E7E7;
   border-radius: 3px;
 }
 
@@ -66,7 +67,7 @@ code {
   width: inherit;
   height: inherit;
   color: #39433A;
-  background-color: #E5F2E6;
+  background-color: #E7E7E7;
   font-weight: 500;
   /* font-family: "Livvic", sans-serif; */
   font-size: .9em;
@@ -78,8 +79,37 @@ code {
   }
 }
 
+ol {
+  font-size: 16.5px;
+}
+
 ul li {
-  list-style: none;
+  list-style: circle;
+  margin-left: 40px;
+  font-size: 16.5px;
+}
+
+th {
+  background-color: #2e72b1;  
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #E7E7E7;  
+}
+
+tr:hover {background-color: #ddd;}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+table {
+  margin: 20px;
+  padding: 10px;
+  border-spacing: 2px;
 }
 
 a:hover {
@@ -118,6 +148,8 @@ text-align: center;
 .youtube-player {
   width: 75vw;
   height: calc(75vw/1.77);
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 900px) {
@@ -1053,7 +1085,7 @@ article {
 .single-post .post-content ol li,
 .single-post .post-content ul li {
   /* font-size: ; */
-  color: #787878;
+  /* color: #787878; */
   font-weight: 400;
 }
 
