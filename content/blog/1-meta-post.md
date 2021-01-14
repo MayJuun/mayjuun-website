@@ -7,7 +7,7 @@ author: John Manning, MD, FAMIA, FACEP
 tags: ["meta","howto","informatics","website","hugo"]
 ---
 
-# Welcome to the Informatics Meta-Blog
+## Welcome to the Informatics Meta-Blog -
 
 Knowledge is power...and best shared with others. This is the place where any informatician, innovator, or entrepreneur can crowd-source contribute and build upon each others' knowledge.
 
@@ -22,9 +22,9 @@ By the end of this post, you'll learn:
 
 There's a reason why this will be a 'meta-blog'. Our plan is to teach and share topics *about* another topic. The term [meta] is Greek for 'after' or 'beyond', but the true beauty of this word is its implied transcendence. Take the following:
 
-1. meta-data == data about data
-2. meta-analysis == analysis of multiple analyses
-3. meta-cognition == thinking about thought
+* meta-data == data about data
+* meta-analysis == analysis of multiple analyses
+* meta-cognition == thinking about thought
 
 Put simply, if you are shifting focus from the topic at hand to the factors that surround it, then that's meta. **You are essentially 'breaking the fourth wall' on the topic.**
 
