@@ -1,6 +1,6 @@
 ---
 title: "Get Fluttered: MVC+S Architecture, Example"
-date: 2021-01-08T02:18:35Z
+date: 2021-01-14T19:52:02Z
 type: post
 image: images/blog/2-get-mvcs/get-mvcs-logo.png
 author: John Manning, MD, FAMIA, FACEP
