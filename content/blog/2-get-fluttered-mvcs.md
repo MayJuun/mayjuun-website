@@ -63,7 +63,7 @@ Initially, I was quite strict about updating all variable names to include ‘rx
 
 In my opinion, learning about folder structure is best accomplished via example. Our video outlining the PRAPARE app as a complex example of the MVC+S architecture pattern should help. Keeping everything in one place, this is the general guideline we followed:
 
-  | **Folder**   | **Subfolder**                          | **Description**                                                                                        |
+  | Folder       | Subfolder                              | Description                                                                                            |
   | ------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------------ |
   | /_internal   |                                        | custom modifications, constants / enums, utility classes                                               |
   |              | /components                            | custom components / variations on Flutter widgets                                                      |
