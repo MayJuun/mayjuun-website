@@ -3,6 +3,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Nova+Round);
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 
+/* https://www.clairecodes.com/blog/2018-03-16-styling-inline-code-tags/ */
+
 body {
   font-family: "Nunito", sans-serif;
   font-size: 18px;
@@ -47,10 +49,6 @@ ul {
   padding-left: 0;
 }
 
-pre code {
-  background-color: #E7E7E7;
-}
-
 pre {
   padding-left: 5px;
   min-width: 150px;
@@ -66,11 +64,11 @@ code {
   box-sizing: border-box;
   width: inherit;
   height: inherit;
-  color: #39433A;
-  background-color: #E7E7E7;
   font-weight: 500;
-  /* font-family: "Livvic", sans-serif; */
   font-size: .9em;
+  /* font-family: "Livvic", sans-serif; */
+  /* background-color: #E7E7E7; */
+  /* color: #39433A; */
 }
 
 @media (max-width: 767px) {
