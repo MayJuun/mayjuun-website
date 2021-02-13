@@ -151,15 +151,18 @@ class SmallActionButton extends StatelessWidget {
 }
 ```
 
-However, as we said, it's still not particularly functional. Why? Because we haven't passed it a function. So let's do that. instead of
+However, as we said, it's still not particularly functional. Why? Because we haven't passed it a function. So let's do that. Instead of:
 
-```onPressed: () => null```,
+```dart
+onPressed: () => null
+```
 
 let's try
 
-```onPressed: () => _hapiCreate()```
-
-```onPressed:() => _hapiSearch()```
+```dart
+onPressed: () => _hapiCreate()
+onPressed: () => _hapiSearch()
+```
 
 These will be the two functions we'll create for the functionality of our app. The underscore at the beginning makes them private functions so they can only be called from inside of our main.dart file (which isn't a problem for us, but it would be if you were making a large app). We could even place these functions inside of our CreatePatient class and then they would only be able to be called from inside the class.
 
