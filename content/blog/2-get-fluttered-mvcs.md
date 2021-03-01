@@ -15,7 +15,7 @@ Before making new GetFluttered videos, we wanted to implement:
 
 1. A means to provide written, supplemental info ... [Meta-Blog](https://mayjuun.com/blog/);
 2. A complex, production-level MVC+S example ... [PRAPARE app](https://github.com/firejuun/prapare); &
-3. A means for others to join / collaborate ... [FlutterJuun Slack invite](https://join.slack.com/t/flutterjuun/shared_invite/zt-kpu6orqc-CVgHomFfWRlUzs1QtGeLkw).
+3. A means for others to join / collaborate ... [FlutterJuun Slack invite](https://join.slack.com/t/flutterjuun/shared_invite/zt-mzbgwc85-sgm3ClBYj1IrzlSf9jfWzA).
 
 With these elements now firmly established, it should be easier to follow along with GetFluttered content by comparing [simple](https://github.com/FireJuun/get_fluttered) + [complex](https://github.com/FireJuun/prapare) code examples that achieve the same objective.
 
