@@ -12,25 +12,29 @@ name = "Meta-Blog"
 url = "blog"
 weight = 2
 [[menu.nav]]
+name = "FHIR-FLI"
+url = "fhirfli"
+weight = 3
+[[menu.nav]]
 name = "Flutter Portfolio"
 url = "portfolio"
-weight = 3
+weight = 4
 [[menu.nav]]
 name = "Figma Gallery"
 url = "gallery"
-weight = 4
+weight = 5
 [[menu.nav]]
 name = "About"
 url = "about"
-weight = 5
+weight = 6
 [[menu.nav]]
 name = "Services"
 url = "service"
-weight = 6
+weight = 7
 [[menu.nav]]
 name = "Contact"
 url = "contact"
-weight = 7
+weight = 8
 
 # Site Params
 [params]
@@ -66,6 +70,13 @@ enable = true
 title = "About Us"
 content = "Founded by clinicians, our mission is to streamline the user experience of the technology seen in healthcare. We make healthcare-focused apps so that you can spend your time at the bedside, not the computer."
 image = "images/about/about.jpg"
+
+# FHIR-FLI Introduction Section
+[params.fhirfli]
+enable = true
+title = "FHIR-FLI"
+content = "FHIR-FLI is an open-source collaborative with the goal of improving healthcare through the use of the FHIR interoperability standard and the Flutter Toolkit. We believe that lowering the barrier (both technically and monetarily) to entry allows for more innovation, broader applications, and the ability to actually use technology to improve people's lives."
+image = "images/fhirfli/fhirfli.jpg"
 
 # Call to Action
 [params.cta]

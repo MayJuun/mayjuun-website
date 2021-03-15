@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ "<!-- FHIR-FLI Description Section Start -->" | safeHTML }}
+<section class="company-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+                {{ with .Site.Data.fhirfli.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Data.fhirfli.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }}
+                    {{ with .Site.Data.fhirfli.description }}
+                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+                        {{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- FHIR-FLI Description Section End -->" | safeHTML }}
+
+{{ "<!-- Blog Post Section Start -->" | safeHTML }}
+<section id="blog-full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ range .Data.Pages }}
+                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                    
+                    <div class="blog-post-image">
+                        <a href="{{ .Permalink }}">
+                             {{ with .Params.image }}<img class="img-fluid post-image w-50" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blogpost-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h2>
+                        <div class="blog-meta">
+                            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+                            {{ with .Params.author }}<span>by
+                                {{ . }}
+                            </span>
+                            {{ end }}
+                            {{ with .Params.category }}
+                            <span>
+                                {{ delimit . ", " }}
+                            </span>
+                            {{ end }}
+                        </div>
+                        <p>
+                            {{ .Summary }}
+                        </p>
+                        {{ with .Permalink }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue Reading</a>{{ end }}
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Blog Post Section Start -->" | safeHTML }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}

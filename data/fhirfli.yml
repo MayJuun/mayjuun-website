@@ -1,0 +1,8 @@
+enable: true
+title: FHIR-FLI
+description: >
+  Fast Healthcare Interoperability Resources with Flutter Library Integration
+  <br>
+  <br>
+  FHIR-FLI is an open-source collaborative with the goal of improving healthcare through the use of the FHIR interoperability standard and the Flutter Toolkit. We believe that lowering the barrier (both technically and monetarily) to entry allows for more innovation, broader applications, and the ability to actually use technology to improve people's lives.
+image: images/fhirfli/fhirfli.jpg
