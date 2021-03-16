@@ -2,7 +2,7 @@
 title: "My First FHIR/Flutter App"
 date: 2021-02-02T03:09:13Z
 type: post
-image: images/blog/3-fhir-fli/fhirfli.jpg
+image: images/blog/3-fhir-fli/fhir-fli-logo.png
 author: Grey Faulkenberry, MD MPH
 tags: ["Flutter","FHIR","RESTFul"]
 ---
