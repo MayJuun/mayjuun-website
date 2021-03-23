@@ -15,7 +15,7 @@ For this, I am going to assume that you already know how to install flutter, dar
 
 Following these instructions [here](https://flutter.dev/docs/get-started/test-drive?tab=vscode#create-app), I first created the basic flutter application. I have named it create_patient, but you may call it whatever you'd like. First things first, I like to clear out all of the comments that I'm not going to use (this is obviously unnecessary). For this, I first go to the `main.dart` file, CTRL-F, make sure the regular expressions button is highlighted `.*`, then search for `//.*\n`. Don't put anything in the replace field, and then click the replace all icon (the second one). Save it and all of the formatting will be taken care of.
 
-{{< figure src="/images/blog/3-fhir-fli/vscode.png" width="50%" >}}
+{{< figure src="/images/fhirfli/1-first-fhir/vscode.png" width="50%" >}}
 
 I also do the same thing in the pubspec.yaml. However, for this you must search for ``#.*\n`. And also, you must be very careful about the formatting, because yaml reads spaces, if your indentations are off, it will cause problems.
 
