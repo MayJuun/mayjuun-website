@@ -110,7 +110,8 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 - The android package name is in ```android/app/build.gradle``` as the applicationId
 - App nickname is what it will be called when displayed to the user
 - The SHA-1 password isn't required, but if you want dynamic links or phone authentication, it is (I just include it in case)
-- ```$ keytool -list -v \ -alias androiddebugkey -keystore ~/.android/debug.keystore```
+- ```$ keytool -list -v \
+-alias androiddebugkey -keystore ~/.android/debug.keystore```
 - that should provide some text, one line of which should look like (but alphanumeric)
 ```
 SHA1: AA:BB:CC:DD:EE:FF:GG:HH:II:JJ:KK:LL:MM:NN:OO:PP:QQ:RR:SS:TT
