@@ -25,7 +25,7 @@ Here's the primer on FHIR-FLI:
 
 {{< youtube nE3faNn9aNU >}}
 
-Finally, I plan to periodically update this architecture page so the Slack invite remains active (since Slack links now expire after 30 days)...but if I miss it, let me know in a comment on one of my YouTube videos. I’ll respond to your comment when the invite link is reactivated.
+--Finally, I plan to periodically update this architecture page so the Slack invite remains active (since Slack links now expire after 30 days)...but if I miss it, let me know in a comment on one of my YouTube videos. I’ll respond to your comment when the invite link is reactivated.-- Link updated so that it should no longer expire.
 
 ### MVC+S: Architecture
 
@@ -110,3 +110,9 @@ If there are any questions, or if you have any specific requests for GetFluttere
 Keep learning, keep creating, and stay safe!
 
 --John
+
+## Addendum
+
+Since creating this post, I made another YouTube video that shows this architecture in much greater detail, using the PRAPARE app as an in depth example. Relevant timestamps for Get MVC+S architecture folder structure begin at ~50 min.
+
+{{< youtube 4IZRCfx9Ves >}}
