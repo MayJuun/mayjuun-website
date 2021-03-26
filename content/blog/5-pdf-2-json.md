@@ -27,7 +27,9 @@ First, you need [pdfgrep](https://pdfgrep.org/doc.html) and [jq](https://stedola
 brew install pdfgrep jq
 ```
 
-### Steps to Follow
+-------
+
+## Steps to Follow
 
 I'm going to assume that your PDF file is named in a specific manner where you are sure - without question - that no text exists in your PDF with the file name's title and a trailing `:`, aka `FILENAME.pdf:`. If you can't say that for sure, please change your filename before you run the following command:
 
@@ -53,7 +55,7 @@ Finally, re-open the file, select and delete all ' \f ' and ' \f' fields (if des
 
 -------
 
-### So What Just Happened?
+## So What Just Happened?
 
 I can't say I'm an expert on piping commands through terminal to build optimized regular expressions...nor am I a pro at `sed`, `grep`, and the like...but I am able to do a bit of targeted 'Google searching'.
 
@@ -77,7 +79,21 @@ FILENAME.pdf:1: Lorem ipsum dolor ... FILENAME.pdf:2: Lorem ipsum dolor ... FILE
 3::: Lorem ipsum dolor ...
 ```
 
-- After deleting the first (empty) line, I save my results and run `jq -R -n -c '[inputs|split(":::")|{(.[0]):.[1]}] | add' input.txt`, which uses `:::` as a delimeter between key-value pairs and carriage return as a delimeter for each entry. This result is saved as `output.json`, though it (unfortunately) also contains ` \f ` in all fields save for the last (which has ' \f' without the trailing space). After deleting those escape characters and extra whitespaces, I now have a fully implemented JSON from a PDF!
+- After deleting the first (empty) line and adding brackets to the start/end...
+
+```terminal
+{ 1::: Lorem ipsum dolor ...
+2::: Lorem ipsum dolor ...
+3::: Lorem ipsum dolor ... }
+```
+
+- I save my results and run `jq -R -n -c '[inputs|split(":::")|{(.[0]):.[1]}] | add' input.txt`, which uses `:::` as a delimeter between key-value pairs and carriage return as a delimeter for each entry. This result is saved as `output.json`, though it (unfortunately) also contains ` \f ` in all fields save for the last (which has ' \f' without the trailing space). After deleting those escape characters and extra whitespaces, I now have a fully implemented JSON from a PDF!
+
+```terminal
+{ "1": "Lorem ipsum dolor ...",
+"2": "Lorem ipsum dolor ...",
+"3:" "Lorem ipsum dolor ..." }
+```
 
 ## Closing Thoughts
 
