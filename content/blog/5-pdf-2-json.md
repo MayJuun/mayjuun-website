@@ -13,7 +13,7 @@ Well, I can't say this issue will come up too often for others...but should you 
 
 I needed this in a project where the Flutter packages that performed PDF search functions were not performant, had memory leaks, or seemed to work inconsistently across platforms. That limitation may have changed by the time you read this post, so do a bit of search before going too much further.
 
-Since the files read were quite large to begin with, I dedided it would be best for everyone (and for my own peace of mind) to just go ahead an convert all text into something easily consumed by Dart...hence a JSON file. This method isn't specific to Dart/Flutter. For our purposes, it took content from a 20 mb file and compressed it into 200 kb. Search will definitely be more streamlined!
+Since the files read were quite large to begin with, I decided it would be best for everyone (and for my own peace of mind) to just go ahead an convert all text into something easily consumed by Dart...hence a JSON file. This method isn't specific to Dart/Flutter. For our purposes, it took content from a 20 mb file and compressed it into 200 kb. Search will definitely be more streamlined!
 
 Here are the steps I followed. Later on, I may update this blog post and/or optimize my terminal commands, thus limiting the requirements of manual 'data scrubbing' even further. The data scrubbing steps aren't too cumbersome right now, so for the time being...I'm just leaving them in.
 
