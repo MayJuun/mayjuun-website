@@ -11,7 +11,7 @@ tags: ["First Post","Bucket List"]
 
 My First Meta-Blog Post!
 
-This has been a challenge to get to this point, and hopefully I haven't corrupted the entire website, but here is my first post. This is really more of a test of my ability in GIT to make the changes from my fork and create a pull request to upate the changes. Sounds easy, right? Not so much...after watching the intro video, I knew I was in for a challenge because I didn't understand alot of the terminology or have a 'favorite code editor'. I didn't have any code editor and realized I would have to install Linux on my Chromeboox to get a 'favorite' code editor VS Code.
+This has been a challenge to get to this point, and hopefully I haven't corrupted the entire website, but here is my first post. This is really more of a test of my ability in GIT to make the changes from my fork and create a pull request to upate the changes. Sounds easy, right? Not so much...after watching the intro video, I knew I was in for a challenge because I didn't understand alot of the terminology or have a 'favorite code editor'. I didn't have any code editor and realized I would have to install Linux on my Chromebook d to get a 'favorite' code editor VS Code.
 
 Easier said then done... my computer didn't have enough memory, so needed to delete a bunch of files. Realizing that my computer is not really ideal for this. Thinking I will need to upgrade my trusty Chromebook to something with a little more memory.
 
