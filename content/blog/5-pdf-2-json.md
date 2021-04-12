@@ -99,6 +99,6 @@ FILENAME.pdf:1: Lorem ipsum dolor ... FILENAME.pdf:2: Lorem ipsum dolor ... FILE
 
 This was a quick answer to an interesting challenge. Hopefully others will find it useful, if they ever need to convert the text within a PDF to a JSON string whose index is the page number. In retrospect, it's clear that some of my steps can be better automated/optimized...but this does work and it didn't take much time out of my day.
 
-Hope that helps someone!
+Hope that helps someone! 😎
 
 --John
