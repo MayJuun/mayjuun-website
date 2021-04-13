@@ -59,9 +59,7 @@ On my end, repo #2 is what this website actually displays. ~~I make use of two c
 ./deploy.sh
 ```
 
-~~...and I'm done. Website is accurate, with all changes implemented and all my layout/content changes tracked in their own separate repo (#1).~~
-
-Update. I am now using GitHub actions to automatically update this website on commit. No need for custom shell scripts.
+~~...and I'm done. Website is accurate, with all changes implemented and all my layout/content changes tracked in their own separate repo (#1).~~ *Update. I am now using GitHub actions to automatically update this website on commit. No need for custom shell scripts.*
 
 ## Creating a Post
 
