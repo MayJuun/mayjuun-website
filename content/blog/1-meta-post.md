@@ -52,14 +52,16 @@ The entire website exists as two Github repos:
 1. the repo where I make all changes: [mayjuun-website]  <--- *fork this repo!!!*
 2. an auto-updated repo that makes a [GitHub page]
 
-On my end, repo #2 is what this website actually displays. I make use of two convenience scripts ([update], [deploy]) to automate all my Git commands for this repo. All I have to do is open a terminal in ths mayjuun-website folder and type:
+On my end, repo #2 is what this website actually displays. ~~I make use of two convenience scripts ([update], [deploy]) to automate all my Git commands for this repo. All I have to do is open a terminal in ths mayjuun-website folder and type:~~
 
 ```terminal
 ./update.sh
 ./deploy.sh
 ```
 
-...and I'm done. Website is accurate, with all changes implemented and all my layout/content changes tracked in their own separate repo (#1).
+~~...and I'm done. Website is accurate, with all changes implemented and all my layout/content changes tracked in their own separate repo (#1).~~
+
+Update. I am now using GitHub actions to automatically update this website on commit. No need for custom shell scripts.
 
 ## Creating a Post
 
