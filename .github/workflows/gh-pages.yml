@@ -30,3 +30,4 @@ jobs:
           external_repository: MayJuun/MayJuun.github.io
           publish_branch: main  # default: gh-pages
           publish_dir: ./public
+          cname: mayjuun.com
