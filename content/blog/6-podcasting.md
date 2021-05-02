@@ -9,7 +9,7 @@ tags: ["podcast","code embers","hugo","tutorial"]
 
 ## Intro -
 
-Well, I can't say this is something I'll do with frequency, so I might as well write about this path on the meta-blog. We created an informatics podcast recently, available [here](https://http://codeembers.com/). From the time we recorded the original podcast to the time we had all steps/automation established, we unfortunately found ourselves in a position of needing to rebrand.
+Well, I can't say this is something I'll do with frequency, so I might as well write about this path on the meta-blog. We created an informatics podcast recently, available [here](https://codeembers.com/). From the time we recorded the original podcast to the time we had all steps/automation established, we unfortunately found ourselves in a position of needing to rebrand.
 
 Looking back, this proved most beneficial, as it forced me to reflect on the steps I previously took to create a podcast that harnesses GitHub and Hugo for its RSS feeds. I also prefer the new brand to the old.
 
