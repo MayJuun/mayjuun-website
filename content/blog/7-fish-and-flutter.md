@@ -1,5 +1,5 @@
 ---
-title: "Fish and Fisher: 5 Step Install"
+title: "Fish and Flutter: 5 Step Install"
 date: 2021-05-14T14:04:09Z
 type: post
 image: images/blog/7-fish-and-flutter/pexels-pixabay-207580.jpeg
@@ -175,7 +175,7 @@ Then run
 
 ```shell
 flutter devices
-``
+```
 
 to find the unique deviceIDs for your workstation, and copy/paste these values into the relevant `deviceId` value of the of your Android and iPhone.
 
