@@ -1,7 +1,6 @@
 ---
 title: "Fish and Fisher: 5 Step Install"
 date: 2021-05-14T14:04:09Z
-draft: true
 type: post
 image: images/blog/7-fish-and-flutter/pexels-pixabay-207580.jpeg
 author: John Manning, MD, FAMIA, FACEP
