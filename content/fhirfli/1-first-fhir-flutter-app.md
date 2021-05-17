@@ -1,8 +1,8 @@
 ---
 title: "My First FHIR/Flutter App"
-date: 2021-02-02T03:09:13Z
+date: 2021-05-16T23:55:32Z
 type: post
-image: images/blog/3-fhir-fli/fhirfli.jpg
+image: images/fhirfli/fhir-fli-logo.png
 author: Grey Faulkenberry, MD MPH
 tags: ["Flutter","FHIR","RESTFul"]
 ---
@@ -15,7 +15,7 @@ For this, I am going to assume that you already know how to install flutter, dar
 
 Following these instructions [here](https://flutter.dev/docs/get-started/test-drive?tab=vscode#create-app), I first created the basic flutter application. I have named it create_patient, but you may call it whatever you'd like. First things first, I like to clear out all of the comments that I'm not going to use (this is obviously unnecessary). For this, I first go to the `main.dart` file, CTRL-F, make sure the regular expressions button is highlighted `.*`, then search for `//.*\n`. Don't put anything in the replace field, and then click the replace all icon (the second one). Save it and all of the formatting will be taken care of.
 
-{{< figure src="/images/blog/3-fhir-fli/vscode.png" width="50%" >}}
+{{< figure src="/images/fhirfli/1-first-fhir/vscode.png" width="50%" >}}
 
 I also do the same thing in the pubspec.yaml. However, for this you must search for ``#.*\n`. And also, you must be very careful about the formatting, because yaml reads spaces, if your indentations are off, it will cause problems.
 
@@ -27,22 +27,22 @@ For this project, we will need the packages, [fhir](https://pub.dev/packages/fhi
 
 ```yaml
 name: create_patient
-description: A flutter app that creates a (very) simple patient using the fhir package
+description: A flutter app that creates a (very) simple patient using the fhir package.
 
 publish_to: 'none' 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.1 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  fhir: ^0.0.10
-  fhir_at_rest: ^0.0.4
-  get: ^3.15.0
-  url_launcher: ^5.7.8
-  cupertino_icons: ^1.0.0
+  fhir: ^0.4.6
+  fhir_at_rest: ^0.4.2
+  get: ^4.1.4
+  url_launcher: ^6.0.3
+  cupertino_icons: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -124,29 +124,15 @@ class SmallActionButton extends StatelessWidget {
   final String title;
   final void Function() onPressed;
 
-  const SmallActionButton ({
-    Key key,
-    @required this.title,
-    this.onPressed,
-  }) : super(key: key);
+  const SmallActionButton(
+      {Key? key, required this.title, required this.onPressed})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ButtonTheme.fromButtonThemeData(
-      data: Get.theme.buttonTheme.copyWith(
-        minWidth: Get.width / 3,
-      ),
-      child: RaisedButton(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30),
-          ),
-          padding: const EdgeInsets.symmetric(
-            horizontal: 32,
-            vertical: 24,
-          ),
-          child: Text(title),
-          onPressed: onPressed,
-          ),
+      data: Get.theme.buttonTheme.copyWith(minWidth: Get.width / 3),
+      child: ElevatedButton(child: Text(title), onPressed: onPressed),
     );
   }
 }
@@ -177,8 +163,7 @@ We do need to ensure we have all of the dependencies imported that we are going 
 
 ```dart
 import 'package:fhir/r4.dart';
-import 'package:fhir_at_rest/requests/request_types.dart';
-import 'package:fhir_at_rest/resource_types/resource_types.dart';
+import 'package:fhir_at_rest/r4.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -189,7 +174,7 @@ Next we can go ahead and create the function. We're going to go ahead and create
 ```dart
 Future _hapiCreate(String lastName, String firstName) async {
   var newPatient = Patient(
-    resourceType: 'Patient',
+    resourceType: R4ResourceType.Patient,
     name: [
       HumanName(
         given: [firstName],
@@ -197,22 +182,22 @@ Future _hapiCreate(String lastName, String firstName) async {
       ),
     ],
   );
-  var newRequest = CreateRequest.r4(
+  var newRequest = FhirRequest.create(
     base: Uri.parse('https://hapi.fhir.org/baseR4'),
-    type: R4Types.patient,
+    resource: newPatient,
   );
-  var response = await newRequest.request(resource: newPatient);
-  response.fold(
-    (l) {
-      Get.snackbar('Failure', '${l.errorMessage()}',
-          snackPosition: SnackPosition.BOTTOM);
-      print(l.errorMessage());
-    },
-    (r) => Get.rawSnackbar(
+  var response = await newRequest
+      .request(headers: {'Content-Type': 'application/fhir+json'});
+  if (response?.resourceType == R4ResourceType.Patient) {
+    Get.rawSnackbar(
         title: 'Success',
-        message: 'Patient ${(r as Patient).name[0].given[0]}'
-            ' ${(r as Patient).name[0].family} created'),
-  );
+        message: 'Patient ${(response as Patient).name?[0].given?[0]}'
+            ' ${response.name?[0].family} created');
+  } else {
+    Get.snackbar('Failure', '${response?.toJson()}',
+        snackPosition: SnackPosition.BOTTOM);
+    print(response?.toJson());
+  }
 }
 ```
 
@@ -233,16 +218,16 @@ This will be much simpler because we're just going to look at what we've created
       'family=Fhirfli&'
       '_pretty=true');
 }
-Future _hapiSearch(
-  String lastName,
-  String firstName,
-) async {
-  await launch('http://hapi.fhir.org/baseR4/'
-      'Patient?'
-      'given=$firstName&'
-      'family=$lastName&'
-      '_pretty=true');
-}
+ Future _hapiSearch(
+    String lastName,
+    String firstName,
+  ) async {
+    await launch('http://hapi.fhir.org/baseR4/'
+        'Patient?'
+        'given=$firstName&'
+        'family=$lastName&'
+        '_pretty=true');
+  }
 ```
 
 ## Name Containers
@@ -300,11 +285,12 @@ class CreatePatient extends StatelessWidget {
                         _lastName.text,
                       )),
               SmallActionButton(
-                  title: 'Hapi: Search',
-                  onPressed: () => _hapiSearch(
-                        _firstName.text,
-                        _lastName.text,
-                      )),
+                title: 'Hapi: Search',
+                onPressed: () => _hapiSearch(
+                  _firstName.text,
+                  _lastName.text,
+                ),
+              ),
             ],
           )
         ],

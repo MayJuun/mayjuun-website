@@ -71,6 +71,14 @@ code {
   /* color: #39433A; */
 }
 
+.img-fluid {
+  width: 75%;
+  max-width: 767px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 767px) {
   .code {
     padding: 15px;
