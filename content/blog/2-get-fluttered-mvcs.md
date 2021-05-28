@@ -19,7 +19,7 @@ Before making new GetFluttered videos, we wanted to implement:
 
 With these elements now firmly established, it should be easier to follow along with GetFluttered content by comparing [simple](https://github.com/FireJuun/get_fluttered) + [complex](https://github.com/FireJuun/prapare) code examples that achieve the same objective.
 
-Given our healthcare focus, and specifically our interest in connecting [FHIR](https://www.hl7.org/fhir/overview.html) to Flutter, our roadmap for GetFluttered videos will also include some [FHIR-FLI](https://www.fhirfli.dev/) content...but by no means is the GetFluttered series limited to health apps. Many of the topics covered can be applied to any Flutter app.
+Given our healthcare focus, and specifically our interest in connecting [FHIR®](https://www.hl7.org/fhir/overview.html) to Flutter, our roadmap for GetFluttered videos will also include some [FHIR-FLI](https://www.fhirfli.dev/) content...but by no means is the GetFluttered series limited to health apps. Many of the topics covered can be applied to any Flutter app.
 
 Here's the primer on FHIR-FLI:
 

@@ -1,13 +1,13 @@
 ---
-title: "GCP Healthcare API Part 1: Creating FHIR Store"
+title: "GCP Healthcare API Part 1: Creating FHIR® Store"
 date: 2021-03-15T15:24:35Z
 type: post
 author: Grey Faulkenberry, MD MPH
-tags: ["Flutter","FHIR","GCP", "Google Healthcare API", "FHIR Store"]
+tags: ["Flutter","FHIR®","GCP", "Google Healthcare API", "FHIR Store"]
 ---
 
 ## Creating FHIR Store
-I've been working on athentication and [authorization for FHIR](https://github.com/MayJuun/fhir/tree/main/fhir_auth) (including SMART, although not solely). And like so many things, it seems harder than it should be. Google has been giving me problems, so as I work through it, I'm going to document my steps, in the hope it will help me (and maybe someone else) in the future.
+I've been working on athentication and [authorization for FHIR®](https://github.com/MayJuun/fhir/tree/main/fhir_auth) (including SMART, although not solely). And like so many things, it seems harder than it should be. Google has been giving me problems, so as I work through it, I'm going to document my steps, in the hope it will help me (and maybe someone else) in the future.
 
 The first step is that you have to sign up for [Google Cloud Platform](https://cloud.google.com/) (oh yeah, while I really like Google's tools, they're not paying me anything). After you signup, you should be able to go to your console. In the console create a new project. You should be able to do this by clicking on the three little  dots next to Google Cloud Platform (at least that's how mine works, I don't remember if it's different the first time), in the top let corner fo the screeen. My current project is called fhir-fli. 
 

@@ -2,29 +2,29 @@
 <footer id="footer">
     <div class="container">
         <div class="row content-justify-between">
-            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                <p class="copyright">Copyright
+            <!-- <div class="col-md-8 col-12 text-center text-lg-left text-md-left"> -->
+                <p class="copyright">Website Content: Copyright
                     <span>
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                    </span> by MayJuun, LLC
-                    <br> <a href="mailto:info@mayjuun.com">info@mayjuun.com</a>
-                    <br> <br> Website Theme:<br>Copyright 2020. Designed and Developed by <a
-                        href="http://www.themefisher.com" target="_blank">Themefisher</a>
+                    </span> by MayJuun. Contact us: <a href="mailto:info@mayjuun.com">info@mayjuun.com</a>
+                    <br> Website Theme: Copyright 2020. Original design by <a
+                        href="http://www.themefisher.com" target="_blank">Themefisher</a> under <a href="https://github.com/themefisher/timer-hugo/blob/master/LICENSE" target="_blank">MIT license</a>, modified by MayJuun
                     <!-- <br> Get More Bootstrap Template From Our
                     <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a> -->
+                    <br> FHIR® is a registered trademark of Health Level Seven International (HL7) and its use does not constitute an endorsement of products by HL7®.
                 </p>
             </div>
-            <div class="col-md-4 col-12">
+            <!-- <div class="col-md-4 col-12"> -->
                 {{ "<!-- Social Media -->" | safeHTML }}
-                <ul class="social text-center text-md-right text-lg-right">
-                    {{ range .Site.Params.socialIcon }}
-                    <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
-                    {{ end }}
-                </ul>
-            </div>
-        </div>
+                <!-- <ul class="social text-center text-md-right text-lg-right"> -->
+                    <!-- {{ range .Site.Params.socialIcon }} -->
+                    <!-- <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li> -->
+                    <!-- {{ end }} -->
+                <!-- </ul> -->
+            <!-- </div> -->
+        <!-- </div> -->
     </div>
 </footer>
 {{ "<!-- footer section end -->" | safeHTML }}

@@ -5,15 +5,15 @@ date: 2020-11-19T05:07:05Z
 description : "PRAPARE Survey"
 caption: Open-source SDoH Questionnaire
 image: images/portfolio/demo-prapare.gif
-category: ["flutter","demo","fhir","sdoh"]
+category: ["flutter","demo","FHIR","sdoh"]
 liveLink: https://github.com/FireJuun/prapare
 # client: AMIA Virtual Clinical Informatics Conference
 submitDate: in progress
 # location: virtual
 ---
-# PRAPARE SURVEY
+## PRAPARE SURVEY
 
-This is a work in progress. The Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences ([PRAPARE]) survey was recreated in a Flutter environment using its [LOINC FHIR specification]. The app directly loads the FHIR spec (albeit with some basic modifications to the original FHIR JSON to more closely match the initial survey). It has basic validation in place for survey completion.
+This is a work in progress. The Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences ([PRAPARE]) survey was recreated in a Flutter environment using its [LOINC FHIR® specification]. The app directly loads the FHIR® spec (albeit with some basic modifications to the original FHIR® JSON to more closely match the initial survey). It has basic validation in place for survey completion.
 
 ## Features
 

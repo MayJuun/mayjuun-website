@@ -3,12 +3,12 @@ title: "GCP Healthcare API Part 2: Attempting Authentication"
 date: 2021-03-15T15:24:35Z
 type: post
 author: Grey Faulkenberry, MD MPH
-tags: ["Flutter","FHIR","GCP", "Google Healthcare API", "FHIR Store"]
+tags: ["Flutter","FHIR®","GCP", "Google Healthcare API", "FHIR Store"]
 ---
 
 ## GCP Healthcare API - Attempting Authentication
 
-Again, I've found this to be tricky, hence why I'm documenting here, to hopefully make it easier for someone else. Remember, we should now have a FHIR store. The one I've setup exists at:
+Again, I've found this to be tricky, hence why I'm documenting here, to hopefully make it easier for someone else. Remember, we should now have a FHIR® store. The one I've setup exists at:
 
 https://healthcare.googleapis.com/v1/projects/fhir-fli/locations/us/datasets/fhir-fli/fhirStores/fhir-fli
 
@@ -34,9 +34,8 @@ Fill out the information on the next page. Make sure you fill out all with a * (
 
 {{< figure src="/images/fhirfli/3-gcp-fhir-store/registration.png" width="50%" >}}
 
-Click ADD OR REMOVE SCOPES, and add Cloud Healthcare API (you can just search for health). 
+Click ADD OR REMOVE SCOPES, and add Cloud Healthcare API (you can just search for health).
 
 {{< figure src="/images/fhirfli/3-gcp-fhir-store/scopes.png" width="50%" >}}
 
 Next page you can add users (this is done by their email). If you selected internal, they will need to have an email within the domain of your organization. Then review, and go BACK TO DASHBOARD and select Credentials -> +CREATE CREDENTIALS -> OAuth client ID.
-
