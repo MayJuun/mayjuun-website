@@ -11,7 +11,7 @@ tags: ["wvems","flutter","protocols","projects"]
 
 Today (Oct 5, 2021), we at MayJuun are proud to officially release the WVEMS Protocols Flutter app on the [Apple App Store](https://apps.apple.com/ca/app/wvems-protocols-operational/id1437286516) and the [Google Play Store](https://play.google.com/store/apps/details?id=com.WVEMSProtocols).
 
-This was a wonderful project built in collaboration with the [Western Virginia Emergency Medical Services Council, Inc](https://western.vaems.org/), who provides Emergency Medicine Services (EMS) in the state of Virginia, specificially in the following 7 cities:
+This was a wonderful project built in collaboration with the [Western Virginia Emergency Medical Services Council, Inc](https://western.vaems.org/), who provides Emergency Medical Services (EMS) in the state of Virginia...specificially in the following 7 cities:
 
 - Covington
 - Danville
