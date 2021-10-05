@@ -1,6 +1,6 @@
 ---
 title: "WVEMS Protocols - Interactive, Searchable PDFs"
-date: 2021-10-05T19:11:04Z
+date: 2021-10-05T20:58:00Z
 type: post
 image: images/blog/8-wvems-protocols/wvems-protocols-ios.png
 author: John Manning, MD, FAMIA, FACEP
