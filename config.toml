@@ -16,13 +16,13 @@ name = "FHIR-FLI"
 url = "fhirfli"
 weight = 3
 [[menu.nav]]
-name = "Flutter Portfolio"
+name = "App Portfolio"
 url = "portfolio"
 weight = 4
-[[menu.nav]]
-name = "Figma Gallery"
-url = "gallery"
-weight = 5
+# [[menu.nav]]
+# name = "Figma Gallery"
+# url = "gallery"
+# weight = 5
 [[menu.nav]]
 name = "About"
 url = "about"

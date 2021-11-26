@@ -1,5 +1,5 @@
 ---
-title: "Flutter Portfolio"
-description : "MayJuun -- Flutter Portfolio"
+title: "App Portfolio"
+description : "MayJuun -- App Portfolio"
 ---
 
