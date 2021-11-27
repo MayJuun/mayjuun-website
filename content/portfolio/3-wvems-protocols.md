@@ -2,7 +2,7 @@
 title: WVEMS Protocols
 description: Interactive, searchable PDFs
 type: portfolio
-date: 2021-11-27T16:12:47Z
+date: 2021-11-27T22:54:27Z
 image: images/portfolio/3-wvems-protocols/demo-wvems-protocols.gif
 client: Western Virginia Emergency Medical Services Council, Inc.
 releaseDate: Oct 5, 2021
@@ -21,7 +21,7 @@ categories: ["open source","EMS","PDF"]
 ---
 ## WVEMS Protocols -
 
-The WVEMS Protocols app is a cross platform Flutter app designed to quickly view, interact, and search through PDFs. It is being used clinically in 7 cities and 12 counties in southwest Virginia. The app allows EMTs to access the guidelines and protocols necessary for on-shift patient care.
+The WVEMS Protocols app is a cross-platform Flutter app designed to quickly view, interact, and search through PDFs. It is being used clinically in 7 cities and 12 counties in southwest Virginia. The app allows EMTs to access the guidelines and protocols necessary for on-shift patient care. In the first month of release alone, the app was installed on 1,200 Android phones and iPhones.
 
 This app builds heavily on the use of interactive PDFs. For example, a separate PDF exists for each year the protocol was updated / released. For future projects, additional PDFs may be created to satisfy different needs, such as locations, agencies, clinical settings, etc.
 
