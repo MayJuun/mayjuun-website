@@ -2,7 +2,7 @@
 title: WVEMS Protocols
 description: Interactive, searchable PDFs
 type: portfolio
-date: 2021-11-27T08:21:08Z
+date: 2021-11-27T16:12:47Z
 image: images/portfolio/3-wvems-protocols/demo-wvems-protocols.gif
 client: Western Virginia Emergency Medical Services Council, Inc.
 releaseDate: Oct 5, 2021
@@ -25,9 +25,9 @@ The WVEMS Protocols app is a cross platform Flutter app designed to quickly view
 
 This app builds heavily on the use of interactive PDFs. For example, a separate PDF exists for each year the protocol was updated / released. For future projects, additional PDFs may be created to satisfy different needs, such as locations, agencies, clinical settings, etc.
 
-The app is fully open source and may be modified to view any type of PDF. We strongly suggest using PDFs with `embedded links` so you can more easily swap from one page in the PDF to another. If any interest exists to have a custom built app that displays your own PDF content, email us at info@mayjuun.com and we can work with you.
+The app is fully open source and may be modified to view any type of PDF. We strongly suggest using PDFs with `embedded links` so you can more easily swap from one page in the PDF to another. If any interest exists to have a custom-built app that displays your own PDF content, email us at info@mayjuun.com and we can work with you.
 
-If you need help creating / modifying your own PDFs for this cause, that is also something we can help with. The PDFs found in the WVEMS Protocols app fall under the CC-BY-SA4 license, so if you wanted to adapt and modify the content or PDF strike that originated from WVEMS to match your own needs…you are welcome to do so as long as you provide attribution to the WVEMS Council and keep your derivative content under the same license. Additionally, if you want to provide your own PDF content from scratch, the app's content will fall under any license you want.
+If you need help creating / modifying your own PDFs for this cause, that is also something we can help with. The PDFs found in the WVEMS Protocols app fall under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license, so if you wanted to adapt and modify some of this content to match your own needs...you are welcome to do so as long as you provide attribution to the WVEMS Council and you keep your derivative content under the same license. Similarly, if ou use your own PDF from scratch, feel free to make that PDF under any license you want.
 
 ## Features
 
