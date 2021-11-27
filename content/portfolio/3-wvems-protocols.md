@@ -25,9 +25,9 @@ The WVEMS Protocols app is a cross platform Flutter app designed to quickly view
 
 This app builds heavily on the use of interactive PDFs. For example, a separate PDF exists for each year the protocol was updated / released. For future projects, additional PDFs may be created to satisfy different needs, such as locations, agencies, clinical settings, etc.
 
-The app is fully open source and may be modified to view any type of PDF. We strongly suggest using PDFs with `embedded links` so you can more easily swap from one page in the PDF to another. If any interest exists to have a custom-built app that displays your own PDF content, email us at info@mayjuun.com and we can work with you.
+The app is fully [open-source](https://github.com/MayJuun/wvems_protocols) and may be modified to view any type of PDF. We strongly suggest using PDFs with `embedded links` so you can more easily swap from one page in the PDF to another. If any interest exists to have a custom-built app that displays your own PDF content, or to have a similar setup for your own needs, email us at info@mayjuun.com and we can work with you.
 
-If you need help creating / modifying your own PDFs for this cause, that is also something we can help with. The PDFs found in the WVEMS Protocols app fall under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license, so if you wanted to adapt and modify some of this content to match your own needs...you are welcome to do so as long as you provide attribution to the WVEMS Council and you keep your derivative content under the same license. Similarly, if ou use your own PDF from scratch, feel free to make that PDF under any license you want.
+If you need help creating / modifying your own PDFs as well, just let us know. The PDFs found in the WVEMS Protocols app fall under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license, so if you wanted to adapt and modify some of this existing content to match your own needs...you are welcome to do so as long as you provide attribution to the WVEMS Council, Inc and you keep your derivative content under the same license. Similarly, if you use your own PDF from scratch, you are welcome to put it under any license you want.
 
 ## Features
 
