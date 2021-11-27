@@ -1137,7 +1137,7 @@ article {
 
 /* portfolio single */
 .work-single {
-  padding: 100px 0 20px;
+  padding: 40px 0 20px;
 }
 
 .work-single h3 {
@@ -1146,6 +1146,7 @@ article {
 }
 
 .work-single-image {
+  /* margin-top: 35px; */
   margin-bottom: 35px;
 }
 
@@ -1169,7 +1170,8 @@ article {
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
-  padding: 30px 25px;
+  padding: 15px 15px;
+  margin: 25px 0px;
 }
 
 .work-single-sidebar h5 {

@@ -8,11 +8,7 @@
                 <div class="block">
                     <h2>{{ .Title }}</h2>
                     <div class="portfolio-meta">
-                        <span>{{ .Date.Format "2006-01-02" }}</span>|
-                        <span> Category: {{ delimit .Params.category ", " }}</span>|
-                        <span> website:
-                            <a href="{{ .Params.liveLink }}">{{ .Params.liveLink }}</a>
-                        </span>
+                        <span>{{ .Params.description }}</span>
                     </div>
                 </div>
             </div>
@@ -24,6 +20,45 @@
 <section class="work-single">
     <div class="container">
         <div class="row">
+            <div class="col-lg-4">
+                <!-- sidebar -->
+                <div class="work-single-sidebar">
+                    {{ with .Params.title }}
+                    <h5>App</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.client }}
+                    <h5>Client</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.location }}
+                    <h5>Location</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.releaseDate }}
+                    <h5>Release date</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.links }}
+                    <h5>Links</h5>
+                    <h6>
+                        <ul>
+                            {{ range . }}
+                              <li><a href="{{ .url }}" target="_blank" rel="nofollow">{{ .title }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </h6>
+                    {{ end }}
+                    {{ with .Params.categories }}
+                    <h5>Categories</h5>
+                    <h6>
+                        <span>
+                            {{ delimit . ", " }}
+                        </span>
+                    </h6>
+                    {{ end }}
+                </div>
+            </div>
             <div class="col-lg-8">
                 {{ with .Params.image }}
                 <div class="work-single-image">
@@ -37,31 +72,6 @@
                     {{ . }}
                 </div>
                 {{ end }}
-            </div>
-            <div class="col-lg-4">
-                <!-- sidebar -->
-                <div class="work-single-sidebar">
-                    {{ with .Params.client }}
-                    <h5>Clients</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                    {{ with .Params.submitDate }}
-                    <h5>date</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                    <h5>category</h5>
-                    <h6>
-                        {{ with .Params.category }}
-                        <span>
-                            {{ delimit . ", " }}
-                        </span>
-                        {{ end }}
-                    </h6>
-                    {{ with .Params.location }}
-                    <h5>locations</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                </div>
             </div>
         </div>
     </div>

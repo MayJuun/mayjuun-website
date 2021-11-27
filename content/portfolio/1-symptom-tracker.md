@@ -1,14 +1,15 @@
 ---
-title: "AMIA Symptom Tracker"
+title: AMIA Symptom Tracker
+description: Open-source COVID Symptom Tracker
 type: portfolio
 date: 2020-11-19T04:49:49Z
-description : "AMIA Symptom Tracker"
-caption: Open-source COVID Symptom Tracker
 image: images/portfolio/1-symptom-tracker/demo-symptom-tracker.gif
-category: ["Flutter","FHIR®","demo"]
-liveLink: https://github.com/FireJuun/symptom_tracker
 client: AMIA Virtual Clinical Informatics Conference
-submitDate: May 19, 2020
+releaseDate: May 19, 2020
+links: 
+  - title: GitHub - Source Code
+    url: https://github.com/FireJuun/symptom_tracker
+categories: ["open source","FHIR®","demo"]
 # location: virtual
 ---
 ## AMIA Symptom Tracker -
