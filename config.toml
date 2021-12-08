@@ -50,7 +50,7 @@ googleAnalitycsID = "UA-50100304-2"
 # Banner Section
 [params.banner]
 enable = true
-bgImage = "images/slider.jpg"
+bgImage = "images/slider.svg"
 heading = "MayJuun"
 description = "Interfaces by Clinicians, for Clinicians"
 # button
@@ -69,7 +69,7 @@ title = "More Doctoring"
 enable = true
 title = "About Us"
 content = "Founded by clinicians, our mission is to streamline the user experience of the technology seen in healthcare. We make healthcare-focused apps so that you can spend your time at the bedside, not the computer."
-image = "images/about/about.jpg"
+image = "images/about/about.png"
 
 # FHIR-FLI Introduction Section
 [params.fhirfli]
