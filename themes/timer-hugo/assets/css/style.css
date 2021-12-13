@@ -583,15 +583,19 @@ a:hover {
 }
 
 .about-feature .about-feature-1 {
-  background: #6cba74;
+  background: #1e1e1e;
+  border-right: 1px solid grey;
+  border-bottom: 2px solid grey;
 }
 
 .about-feature .about-feature-2 {
-  background: #727272;
+  background: #1e1e1e;
+  border-right: 1px solid grey;
+  border-bottom: 2px solid grey;
 }
 
 .about-feature .about-feature-3 {
-  background: #959595;
+  background: #1e1e1e;
 }
 
 .works {
