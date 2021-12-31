@@ -7,19 +7,15 @@ tags: ["FHIR®","SDC", "Questionnaire", "QuestionnaireResponse", "Structured Dat
 ---
 ## Structured Data Capture (SDC)
 
-As usual the HL7 website has lots to say on the topic of [SDC](http://hl7.org/fhir/uv/sdc/2019May/workflow.html), and I DO advise you to read through it because it's very helpful. However, where I thought I might be able to add to it was with the addition of some examples.
+As usual, the HL7 website has a lot to say on the topic of [SDC](http://hl7.org/fhir/uv/sdc/2019May/workflow.html), and I DO advise you to read through it because it's very helpful. However, where I thought I might be able value is with some additional examples.
 
-All of the examples are from a project I'm currently involved with for [New Jersey Integrated Care for Kids](https://www.zanenetworks.com/zane-networks-mayjuun-receive-contract-for-the-needs-assessment-tool-solution-for-new-jerseys-inck-project/). The idea behind this project is that a clinician (social worker, teacher, etc.), would like to perform a needs assessment on a pediatric patient. They request the assesment, we create a Task using a PlanDefinition that includes multiple questionnaires appropriate for that age group. They are sent the questionnaires, complete them, the Task is completed and updated with the QuestionnaireResponses as well as a MeasureReport for overall scoring. It took a while to try and ensure I had the correct workflow and all of the correct resources. I figure I would document that all here to get feedback and offer an example to anyone who might need one.
+All of these examples are from a project I'm currently involved with for [New Jersey Integrated Care for Kids](https://www.zanenetworks.com/zane-networks-mayjuun-receive-contract-for-the-needs-assessment-tool-solution-for-new-jerseys-inck-project/). The idea behind this project is that a clinician (social worker, teacher, etc.), would like to perform a needs assessment on a pediatric patient. They request the assesment, then we create a Task using a PlanDefinition that includes multiple questionnaires appropriate for that age group. They are sent the questionnaires, complete them, and the Task is completed and updated with the QuestionnaireResponses as well as a MeasureReport for overall scoring. It took a while to try and ensure I had the correct workflow and all of the correct resources. I figured I would document that all here to get feedback and offer an example to anyone who might need one.
 
 ### ServiceRequest
 
 While the request can come from anyone (with the ability to do such a thing), we represent it on our server using a ServiceRequest. A sample ServiceRequest is displayed below:
 
-<details>
-
-<summary><u>Click to view ServiceRequest</u></summary>
-
-```json
+{{< code json >}}
 {
     "resourceType": "ServiceRequest",
     "priority": "routine",
@@ -38,10 +34,7 @@ While the request can come from anyone (with the ability to do such a thing), we
         "reference": "RelatedPerson/8a968031-9d13-4938-b722-bc957e85088a"
     }
 }
-```
-
-</details>
-  
+{{< /code >}}  
 
 As usual, not all fields are mandatory. The PlanDefinition is decided based on the patient's age. The requester can be an Organization or a Practitioner (for our use case). We include both the subject and the performer since we are dealing with pediatric patients.
 
@@ -49,11 +42,7 @@ As usual, not all fields are mandatory. The PlanDefinition is decided based on t
 
 After the ServiceRequest is created, that kicks off the process. We're working on a pub/sub workflow, but for now it we have a service that periodically polls for new ServiceRequests. It then pulls from the PlanDefinition to find what Resources need to be included in the Task. An example PlanDefinition is below:
 
-<details>
-
-<summary><u>Click to view PlanDefinition</u></summary>
-
-```json
+{{< code json >}}
 {
     "resourceType": "PlanDefinition",
     "description": "New Jersey Integrated Care for Kids: Screening Tools for 6-8 months",
@@ -255,9 +244,7 @@ After the ServiceRequest is created, that kicks off the process. We're working o
         }
     ],
 }
-```
-
-</details>
+{{< /code >}}
 
 The PlanDefinitions, at least for now, are all pre-constructed, not created on the fly. We have a PlanDefinition for each age group, and as part of the actions we include all of the Questionnaires that we want the patient/parent to complete. We also include the Measure that will be used to score all of the Questionnares. Lastly, we use a number of ValueSets as the answers to the Questionnaires, and this specifies which ValueSets will be needed.
 
@@ -265,11 +252,7 @@ The PlanDefinitions, at least for now, are all pre-constructed, not created on t
 
 Now that we have the PlanDefinition, we can create the Task. The Task will include most of the information from the ServiceRequest and the PlanDefinition. The Task is our Questionnaire App interacts with, and it's what keeps track of the progress (you can even have sub-tasks, although we did not implement it for this workflow). An example task is below:
 
-<details>
-
-<summary><u>Click to view Task</u></summary>
-
-```json
+{{< code json >}}
 {
     "resourceType": "Task",
     "status": "requested",
@@ -447,10 +430,7 @@ Now that we have the PlanDefinition, we can create the Task. The Task will inclu
         }
     ]
 }
- 
-```
-
-</details>
+{{< /code >}}
 
 As mentioned it is basically a summary of the ServiceRequest and PlanDefinition. It references both, includes the ordering Practitioner/Organization, the Owner is who is responsible to complete the questionnaires, and the "for" is the Patient. If the Patient is an adult, we still use this format to clarify that the Patient is both completing the Questionnaires and is the subject of them. It also of course includes all of the Questionnaires, Measures, and ValueSets as actions.
 
@@ -458,11 +438,7 @@ As mentioned it is basically a summary of the ServiceRequest and PlanDefinition.
 
 A completed Task is an updated version of the Task above. Note, we use the ```"status"``` as ```requested```, ```in-progress```, or ```completed``` to keep track of what stage the Task is in. In addition, the completed Task now has outputs of QuestionnaireResponses and a MeasureReport:
 
-<details>
-
-<summary><u>Click to view Completed Task</u></summary>
-
-```json
+{{< code json >}}
 {
     "resourceType": "Task",
     "status": "completed",
@@ -713,20 +689,13 @@ A completed Task is an updated version of the Task above. Note, we use the ```"s
         }
     ]
 }
- 
-```
-
-</details>
+{{< /code >}}
 
 ### Measure
 
-This one was new for me. It's certainly not necessary, but I like it because it allowed me to score all of the Questionnaires in a single place. I could have created and Observation, but that would be one for each Questionnaire, and I really wanted them grouped together since the Questionnaires are being grouped together. I can't include my full fhirpath expressions because there's some proprietary information in them, but I've enough that I think you can get the idea.
+This one was new for me. It's certainly not necessary, but I like it because it allowed me to score all of the Questionnaires in a single place. I could have created and Observation, but that would be one for each Questionnaire, and I really wanted them grouped together since the Questionnaires are being grouped together. I can't include my full fhirpath expressions because there's some proprietary information in them, but I've included enough that I think you can get the idea.
 
-<details>
-
-<summary><u>Click to view Measure</u></summary>
-
-```json
+{{< code json >}}
 {
   "resourceType": "Measure",
   "id": "a1c7e19c-170c-4381-b89d-541bc04c1686",
@@ -816,10 +785,7 @@ This one was new for me. It's certainly not necessary, but I like it because it 
     }
   ]
 }
-
-```
-
-</details>
+{{< /code >}}
 
 This one needs a little explanation. The top is obviously just the metadata, the key piece here is the group. The group is a list that I've used to contain all scores and subscores for a single questionnaire. The ```group.code.coding.code``` is the path to the Questionnaire that the scoring is applied against. I've then used the population as a list of each score or subscore that apply to a single questionnaire. For instance, the PSC-17 Baby questionnaire has both a total score and an irritability score. These are both from the same questionnaire, but different responses are used for the result. These are detailed in the FHIRPath expressions.
 
@@ -827,11 +793,7 @@ This one needs a little explanation. The top is obviously just the metadata, the
 
 The MeasureReport in turn mirrors the Measure and includes the scores, along with some other pertinent information (although this will obviously vary based on your scoring and the questionnaire). An example for something like the Measure above could look like this:
 
-<details>
-
-<summary><u>Click to view MeasureReport</u></summary>
-
-```json
+{{< code json >}}
 {
   "resourceType": "MeasureReport",
   "status": "complete",
@@ -945,8 +907,6 @@ The MeasureReport in turn mirrors the Measure and includes the scores, along wit
     }
   ]
 }
-```
-
-</details>
+{{< /code >}}
 
 Aaaannnnndddd...scene. So that's our current workflow. I'm obviously open to suggestions or pointers if any of this is out of sync with what the community thinks it should be. But I wanted to offer it as an example because there are not a lot of them out there at this time.

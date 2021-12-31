@@ -4,6 +4,27 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
+
+/* https://github.com/jiridj/hugo-collapsible-code */
+
+.highlight-wrapper {
+  position: relative;
+}
+
+.highlight-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 10;
+}
+
+.highlight-before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-right: 10;
+}
+
 /* https://www.clairecodes.com/blog/2018-03-16-styling-inline-code-tags/ */
 
 body {
