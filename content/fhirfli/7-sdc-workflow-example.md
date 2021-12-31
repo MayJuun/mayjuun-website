@@ -1,6 +1,6 @@
 ---
 title: "SDC Workflow Example"
-date: 2021-12-03T20:38:59Z
+date: 2021-12-31T03:11:30Z
 type: post
 author: Grey Faulkenberry, MD MPH
 tags: ["FHIR®","SDC", "Questionnaire", "QuestionnaireResponse", "Structured Data Capture"]
