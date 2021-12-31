@@ -39,7 +39,7 @@ weight = 8
 # Site Params
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/logo-line.png"
 dateFormat = "6 January 2006"
 # Meta data
 description = "MayJuun: Less Clicking, More Doctoring"
@@ -50,7 +50,7 @@ googleAnalitycsID = "UA-50100304-2"
 # Banner Section
 [params.banner]
 enable = true
-bgImage = "images/homepagebg.svg"
+bgImage = "images/home.svg"
 heading = "MayJuun"
 description = "Interfaces by Clinicians, for Clinicians"
 # button
