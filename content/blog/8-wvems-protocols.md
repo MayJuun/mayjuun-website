@@ -4,7 +4,7 @@ date: 2021-10-05T20:58:00Z
 type: post
 image: images/blog/8-wvems-protocols/wvems-protocols-ios.png
 author: John Manning, MD, FAMIA, FACEP
-tags: ["wvems","flutter","protocols","projects"]
+tags: ["wvems", "flutter", "protocols", "projects"]
 ---
 
 ## Intro -
@@ -43,7 +43,7 @@ Interestingly, this was also the first time our company had a client [directly c
 
 Without further ado...here is the finished product:
 
-{{< figure src="/images/blog/8-wvems-protocols/wvems-demo.gif" width="50%" >}}
+{{< figure src="/images/blog/8-wvems-protocols/wvems-demo.gif" width="30%" >}}
 
 ## Features (in Flutter)
 
@@ -70,7 +70,7 @@ Finally, we set our PDF content + metadata in a standard manner, with resources 
 
 I am happy to go into any of these features in depth, or to create some additional posts/videos with lessons learned. As with before, the objective is to always push the needle forward, reflect on lessons learned, and continue pushing.
 
-I subscribe heavily to the "[Yes and...](https://www.fastcompany.com/3042080/yes-and-5-more-lessons-in-improv-ing-collaboration-and-creativity-from-second-city)" mentality, and particularly to Second City's saying: "All of us is better than one of us."  This project was truly a collaborative. My only hope is that future projects share in this collaborative culture and sense of community.
+I subscribe heavily to the "[Yes and...](https://www.fastcompany.com/3042080/yes-and-5-more-lessons-in-improv-ing-collaboration-and-creativity-from-second-city)" mentality, and particularly to Second City's saying: "All of us is better than one of us." This project was truly a collaborative. My only hope is that future projects share in this collaborative culture and sense of community.
 
 To my friends in Western Virginia, take care out there. Hopefully, this app will help.
 
