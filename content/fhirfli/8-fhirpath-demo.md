@@ -5,9 +5,4 @@ type: post
 author: Grey Faulkenberry, MD MPH
 tags: ["FHIRPath®", "FHIR®"]
 ---
-<!DOCTYPE html>
-<html>
-  <body>
-    <embed src="https://fhir-path-demo-mctbmzb4uq-uc.a.run.app/#/">
-  </body>
-</html>
+<iframe src="https://fhir-path-demo-mctbmzb4uq-uc.a.run.app/#/"></iframe>
