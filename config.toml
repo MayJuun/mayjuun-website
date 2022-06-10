@@ -100,3 +100,6 @@ btnURL = "/contact"
 # [[params.socialIcon]]
 # icon = "ion-social-twitter"
 # url = "#"
+
+[markup.goldmark.renderer]
+unsafe = true
