@@ -7,7 +7,7 @@ tags: ["FHIRPath®", "FHIR®"]
 ---
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; url='https://fhir-path-demo-mctbmzb4uq-uc.a.run.app/#'" />
-  </head>
+  <body>
+    <embed src="https://fhir-path-demo-mctbmzb4uq-uc.a.run.app/#/">
+  </body>
 </html>
