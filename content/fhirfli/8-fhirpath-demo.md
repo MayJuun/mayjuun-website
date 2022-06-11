@@ -6,4 +6,8 @@ author: Grey Faulkenberry, MD MPH
 draft: false
 tags: ["FHIRPath®", "FHIR®"]
 ---
-<iframe width="100%" height="100%" name="iframe" src="https://fhir-path-demo-mctbmzb4uq-uc.a.run.app/"></iframe>
+<html>
+<body>
+  <iframe src="https://fhir-path-demo-mctbmzb4uq-uc.a.run.app/" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</body>
+</html>
