@@ -1,9 +1,9 @@
 ---
 title: MayJuun Apps
-description: Privacy Notice
+description: Terms and Conditions
 date: 2022-06-13T15:34:11Z
 type: Policies
-id: 659ee6d9-bbbc-44b7-9095-37a80979365a
+id: 99f6684a-7dba-457c-ae3a-1424a350e336
 policies: 
   - title: Back
     url: ../
@@ -13,9 +13,9 @@ policies:
     url: ../disclaimer
   - title: EULA
     url: ../eula
-  - title: Terms and Conditions
-    url: ../terms-and-conditions
+  - title: Privacy Notice
+    url: ../privacy-notice
 
 ---
 
-{{< termly-embed 659ee6d9-bbbc-44b7-9095-37a80979365a >}}
+{{< termly-embed 99f6684a-7dba-457c-ae3a-1424a350e336 >}}

@@ -81,7 +81,7 @@ content = "FHIR-FLI is an open-source collaborative with the goal of improving h
 image = "images/fhirfli/fhir-fli-logo.png"
 
 # Policies Introduction Section
-[params.policies]
+[params.Policies]
 enable = true
 
 # Call to Action

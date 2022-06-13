@@ -1,4 +1,4 @@
-{{ if .Site.Params.policies.enable }} {{ "<!-- FHIR-FLI Section Start -->" | safeHTML }}
+{{ if .Site.Params.Policies.enable }} {{ "<!-- FHIR-FLI Section Start -->" | safeHTML }}
 <section id="about">
   <div class="container">
     <div class="row">
@@ -8,7 +8,7 @@
           data-wow-delay=".3s"
           data-wow-duration="500ms"
         >
-          {{ with .Site.Params.policies.image }}
+          {{ with .Site.Params.Policies.image }}
           <img src="{{ . | absURL }}" alt="policies" />
           {{ end }}
         </div>
@@ -19,9 +19,9 @@
           data-wow-delay=".3s"
           data-wow-duration="500ms"
         >
-          {{ with .Site.Params.policies.title }}
+          {{ with .Site.Params.Policies.title }}
           <h2>{{ . }}</h2>
-          {{ end }} {{ with .Site.Params.policies.content }}
+          {{ end }} {{ with .Site.Params.Policies.content }}
           <p>{{ . | safeHTML }}</p>
           {{ end }}
         </div>

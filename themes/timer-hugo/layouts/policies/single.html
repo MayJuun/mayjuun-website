@@ -1,15 +1,26 @@
 {{ define "main" }}
 
-{{ "<!-- Page Header -->" | safeHTML }}
 <section class="global-page-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
                     <h2>{{ .Title }}</h2>
-                    <div class="portfolio-meta">
-                        <span>{{ .Params.description }}</span>
-                    </div>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <p></p><a href="{{ .Site.BaseURL }}">
+                                <i class="ion-ios-home"></i>
+                                Home
+                            </a>
+                            &nbsp; &nbsp;/</p>
+                        </li>
+                        <li class="active list-inline-item">
+                            <a href="../">
+                            {{ .Section }} </a>
+                            &nbsp; &nbsp;/</p></li>
+                        <li class="active list-inline-item">
+                            {{ .Description }}</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -39,7 +50,7 @@
                                 
                                 <a class="termly-embed" href="#currently-broken">Table of Contents</a></li>
                             {{ end }} -->
-                            {{ with .Params.policies }}
+                            {{ with .Params.Policies }}
                             {{ range . }}
                               {{ if or (or (eq .title "Back") (eq .title "EULA" )) (eq .title "Privacy Notice") }}
                               <li><a href="{{ .url }}" target="_self" rel="nofollow">{{ .title }}</a></li>
