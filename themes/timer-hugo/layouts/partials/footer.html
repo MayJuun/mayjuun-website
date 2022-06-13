@@ -14,6 +14,15 @@
                     <!-- <br> Get More Bootstrap Template From Our
                     <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a> -->
                     <br> FHIR® is a registered trademark of Health Level Seven International (HL7) and its use does not constitute an endorsement of products by HL7®
+                    <div class="col copyright">
+                        <a
+                        href="{{ .Site.BaseURL }}policies" target="_self">Policies</a> 
+                        {{ $section := site.GetPage "policies" }}
+                        {{ range $section.Pages }}
+                        ~ <a
+                        href="{{ .Permalink }}" target="_self">{{ .Description }}</a>
+                        {{ end }}
+                    </div>
                 </p>
             </div>
             <!-- <div class="col-md-4 col-12"> -->

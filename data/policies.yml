@@ -1,0 +1,8 @@
+enable: true
+links: 
+  - title: Cookie Policy
+    url: cookie-policy
+  - title: EULA
+    url: eula
+  - title: Privacy Notice
+    url: privacy-notice

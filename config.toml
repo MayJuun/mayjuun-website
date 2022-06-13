@@ -79,6 +79,10 @@ title = "FHIR-FLI"
 content = "FHIR-FLI is an open-source collaborative with the goal of improving healthcare through the use of the FHIR® interoperability standard and the Flutter Toolkit. We believe that lowering the barrier (both technically and monetarily) to entry allows for more innovation, broader applications, and the ability to actually use technology to improve people's lives."
 image = "images/fhirfli/fhir-fli-logo.png"
 
+# Policies Introduction Section
+[params.policies]
+enable = true
+
 # Call to Action
 [params.cta]
 enable = true
