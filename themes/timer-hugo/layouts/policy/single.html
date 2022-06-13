@@ -27,34 +27,26 @@
                     <h5>App</h5>
                     <h6>{{ . }}</h6>
                     {{ end }}
-                    {{ with .Params.client }}
-                    <h5>Client</h5>
+                    {{ with .Params.description }}
+                    <h5>Current Policy</h5>
                     <h6>{{ . }}</h6>
                     {{ end }}
-                    {{ with .Params.location }}
-                    <h5>Location</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                    {{ with .Params.releaseDate }}
-                    <h5>Release date</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                    {{ with .Params.links }}
-                    <h5>Links</h5>
-                    <h6>
-                        <ul>
-                            {{ range . }}
-                              <li><a href="{{ .url }}" target="_blank" rel="nofollow">{{ .title }}</a></li>
-                            {{ end }}
-                        </ul>
-                    </h6>
-                    {{ end }}
-                    {{ with .Params.policies }}
                     <h5>Policies</h5>
                     <h6>
                         <ul>
+                            <!-- {{ with .Params.id }}
+                            <li>
+                                
+                                <a class="termly-embed" href="#currently-broken">Table of Contents</a></li>
+                            {{ end }} -->
+                            {{ with .Params.policies }}
                             {{ range . }}
+                              {{ if or (or (eq .title "Back") (eq .title "EULA" )) (eq .title "Privacy Notice") }}
                               <li><a href="{{ .url }}" target="_self" rel="nofollow">{{ .title }}</a></li>
+                              {{ else }}
+                              <!-- Modify if we want to have different links open in new tabs -->
+                              <li><a href="{{ .url }}" target="_self" rel="nofollow">{{ .title }}</a></li>
+                              {{ end }}
                             {{ end }}
                         </ul>
                     </h6>

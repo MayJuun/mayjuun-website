@@ -2,6 +2,7 @@ baseURL = "https://mayjuun.com/"
 languageCode = "en-us"
 title = "MayJuun"
 theme = "timer-hugo"
+enableInlineShortcodes = true
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
