@@ -1,7 +1,7 @@
 ---
 title: MayJuun Apps
 description: Privacy Notice
-date: 2022-06-13T15:34:11Z
+date: 2022-06-13T23:58:21Z
 type: Policies
 id: 659ee6d9-bbbc-44b7-9095-37a80979365a
 policies: 

@@ -1,7 +1,7 @@
 ---
 title: MayJuun Apps
 description: Terms and Conditions
-date: 2022-06-13T15:34:11Z
+date: 2022-06-13T23:58:27Z
 type: Policies
 id: 99f6684a-7dba-457c-ae3a-1424a350e336
 policies: 
