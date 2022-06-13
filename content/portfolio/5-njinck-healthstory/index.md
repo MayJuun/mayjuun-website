@@ -3,7 +3,7 @@ title: NJ InCK HealthStory
 description: Safe, Secure, Screening Questionnaires
 type: portfolio
 date: 2022-06-13T15:34:11Z
-image: images/portfolio/5-njinck-healthstory/demo-healthstory-english.gif
+image: portfolio/5-njinck-healthstory/images/demo-healthstory-english.gif
 client: NJ Integrated Care for Kids (NJ InCK)
 releaseDate: TBD
 location: USA
@@ -40,24 +40,24 @@ If you have an app idea that requires dynamically-displayed layouts and online /
 
 - To access this tool, you must first login via ACEP's Single Sign On
 
-{{< figure src="/images/portfolio/5-njinck-healthstory/njinck-healthstory-1.png" class="img-center" height="500" >}}
+{{< figure src="images/njinck-healthstory-1.png" class="img-center" height="500" >}}
 
 - The re-launch of the app includes twelve point of care bedside tools. You can `create additional tools via the cloud (Firebase)` without adding new code. The app will then dynamically display new tools / content
 
-{{< figure src="/images/portfolio/5-njinck-healthstory/njinck-healthstory-2.png" class="img-center" height="500" >}}
+{{< figure src="images/njinck-healthstory-2.png" class="img-center" height="500" >}}
 
 - App information, acknowledgements, and tables are displayed as `dismissible dialogs`
 
-{{< figure src="/images/portfolio/5-njinck-healthstory/njinck-healthstory-3.png" class="img-center" height="500" >}}
+{{< figure src="images/njinck-healthstory-3.png" class="img-center" height="500" >}}
 
 - Clicking on a tool will show `custom content, icons, and headings` as determined by Firebase
 
-{{< figure src="/images/portfolio/5-njinck-healthstory/njinck-healthstory-4.png" class="img-center" height="500" >}}
+{{< figure src="images/njinck-healthstory-4.png" class="img-center" height="500" >}}
 
 - Within each heading, you may `expand/collapse content` and quickly swap to `other headings`
 
-{{< figure src="/images/portfolio/5-njinck-healthstory/njinck-healthstory-5.png" class="img-center" height="500" >}}
+{{< figure src="images/njinck-healthstory-5.png" class="img-center" height="500" >}}
 
 - All content are displayed dynamically, including the `background colors` for each tool
 
-{{< figure src="/images/portfolio/5-njinck-healthstory/njinck-healthstory-6.png" class="img-center" height="500" >}}
+{{< figure src="images/njinck-healthstory-6.png" class="img-center" height="500" >}}
