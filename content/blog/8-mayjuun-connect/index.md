@@ -37,7 +37,7 @@ END:VCARD
 
 Anything in the above code that begins and ends with `xx` needs to be replaced by you. For my purposes, the QR Code from this image:
 
-{{< figure src="/images/blog/9-mayjuun-connect/mayjuun-connect-1.png" width="50%" >}}
+{{< figure src="/images/blog/9-mayjuun-connect/mayjuun-connect-1.png" width="40%" >}}
 
 was generated using these lines of code:
 
