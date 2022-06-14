@@ -10,10 +10,10 @@ location: USA
 links: 
   - title: NJ InCK - Site
     url: https://njinck.org
-  - title: Apple - App Store
-    url: https://apps.apple.com/us/app/acep-empoc/id1460691785#?platform=iphone
-  - title: Google - Play Store
-    url: https://play.google.com/store/apps/details?id=org.acep.em_poc
+  # - title: Apple - App Store
+  #   url: https://njinck.org
+  # - title: Google - Play Store
+  #   url: https://njinck.org
   - title: Gravity Project - Success Story
     url: https://thegravityproject.net/transforming-assessments-and-referrals-for-nj-residents
   - title: ACL Challenge - Awardees
@@ -24,6 +24,9 @@ policies:
   - title: EULA
     url: eula
 categories: ["Cuestionario","Social Determinants of Health","FHIR Questionnaires","FHIR"]
+resources:
+  - src: eula.md
+  - src: privacy-notice.md
 
 ---
 ## NJ InCK HealthStory -

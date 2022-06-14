@@ -1,0 +1,141 @@
+{{ define "main" }}
+
+
+{{ if isset .Params "type" }}
+
+{{ "<!-- Page Header -->" | safeHTML }}
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <div class="portfolio-meta">
+                        <span>{{ .Params.description }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- sidebar -->
+                <div class="work-single-sidebar">
+                    {{ with .Params.title }}
+                    <h5>App</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.client }}
+                    <h5>Client</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.location }}
+                    <h5>Location</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.releaseDate }}
+                    <h5>Release date</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.links }}
+                    <h5>Links</h5>
+                    <h6>
+                        <ul>
+                            {{ range . }}
+                              <li><a href="{{ .url }}" target="_blank" rel="nofollow">{{ .title }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </h6>
+                    {{ end }}
+                    {{ with .Params.Policies }}
+                    <h5>Policies</h5>
+                    <h6>
+                        <ul>
+                            {{ range . }}
+                              <li><a href="{{ .url }}" target="_self" rel="nofollow">{{ .title }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </h6>
+                    {{ end }}
+                    {{ with .Params.categories }}
+                    <h5>Categories</h5>
+                    <h6>
+                        <span>
+                            {{ delimit . ", " }}
+                        </span>
+                    </h6>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-lg-8">
+                {{ with .Params.image }}
+                <div class="work-single-image">
+                    <!-- Work Single Image -->
+                    <img class="img-fluid w-50" src="{{ . | absURL }}" alt="work-single-image">
+                </div>
+                {{ end }}
+                <!-- work single Content -->
+                {{ with .Content }}
+                <div class="work-single-content">
+                    {{ . }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ else }}
+
+{{ partial "page-title.html" . }}
+
+<section id="blog-full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ range where .Data.Pages "Type" "portfolio" }}
+                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                    
+                    <div class="blog-post-image">
+                        <a href="{{ .Permalink }}">
+                             {{ with .Params.image }}<img class="img-fluid post-image w-50" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blogpost-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h2>
+                        <div class="blog-meta">
+                            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+                            {{ with .Params.author }}<span>by
+                                {{ . }}
+                            </span>
+                            {{ end }}
+                            {{ with .Params.category }}
+                            <span>
+                                {{ delimit . ", " }}
+                            </span>
+                            {{ end }}
+                        </div>
+                        <p>
+                            {{ .Summary }}
+                        </p>
+                        {{ with .Permalink }}<a href="{{ . }}" class="btn btn-default btn-details hvr-bounce-to-right">Continue Reading</a>{{ end }}
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}

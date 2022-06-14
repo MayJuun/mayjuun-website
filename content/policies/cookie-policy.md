@@ -1,7 +1,7 @@
 ---
 title: MayJuun Apps
 description: Cookie Policy
-date: 2022-06-13T23:58:00Z
+date: 2022-06-14T00:01:56Z
 type: Policies
 id: 1685acf6-f454-4f20-9ca9-cfb72d43cdb0
 policies: 

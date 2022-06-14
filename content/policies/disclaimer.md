@@ -1,7 +1,7 @@
 ---
 title: MayJuun Apps
 description: Disclaimer
-date: 2022-06-13T23:58:08Z
+date: 2022-06-14T00:01:53Z
 type: Policies
 id: 109917a6-5447-4432-bced-9edf002c7ce8
 policies: 
