@@ -122,7 +122,7 @@ unsafe = true
     "https://fonts.gstatic.com"]
   formaction = ["'self'"]
   framesrc = ["'self'",
-    "https://fhir-path-demo-mctbmzb4uq-uc.a.run.app"]
+    "https://fhirpath.mayjuun.com"]
   imgsrc = ["'self'",
     "'unsafe-inline'",
     "data: w3.org/svg/2000"]
@@ -140,6 +140,7 @@ unsafe = true
   scriptsrc = ["'self'",
     "'unsafe-inline'",
     "'unsafe-eval'",
+    "https://fhirpath.mayjuun.com",
     "https://fonts.googleapis.com",
     "https://www.google-analytics.com"]
   connectsrc = ["'self'",

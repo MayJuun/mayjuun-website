@@ -8,4 +8,4 @@ tags: ["FHIRPath®", "FHIR®"]
 ---
 
 
-<iframe sandbox="allow-scripts" width="100%" src="https://fhir-path-demo-mctbmzb4uq-uc.a.run.app" class="" frameborder="0"></iframe>
+{{< flutter-embed fhirpath.mayjuun.com >}}
