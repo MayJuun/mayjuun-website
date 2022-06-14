@@ -3,7 +3,7 @@ title: ACEP emPOC
 description: Emergency Medicine - Point of Care
 type: portfolio
 date: 2021-12-10T00:07:59Z
-image: images/portfolio/4-acep-empoc/demo-acep-empoc.gif
+image: portfolio/4-acep-empoc/images/demo-acep-empoc.gif
 client: American College of Emergency Physicians (ACEP)
 releaseDate: Dec 6, 2021
 location: USA
@@ -31,28 +31,28 @@ If you have an app idea that requires dynamically-displayed layouts and online /
 
 - To access this tool, you must first login via ACEP's Single Sign On
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-1.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-1.png" class="img-center" height="500" >}}
 
 - The re-launch of the app includes twelve point of care bedside tools. You can `create additional tools via the cloud (Firebase)` without adding new code. The app will then dynamically display new tools / content
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-2.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-2.png" class="img-center" height="500" >}}
 
 - App information, acknowledgements, and tables are displayed as `dismissible dialogs`
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-3.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-3.png" class="img-center" height="500" >}}
 
 - Clicking on a tool will show `custom content, icons, and headings` as determined by Firebase
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-4.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-4.png" class="img-center" height="500" >}}
 
 - Within each heading, you may `expand/collapse content` and quickly swap to `other headings`
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-5.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-5.png" class="img-center" height="500" >}}
 
 - All content are displayed dynamically, including the `background colors` for each tool
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-6.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-6.png" class="img-center" height="500" >}}
 
 - emPOC also includes `custom / advanced JSON specifications` to display videos, hyperlinks, and (some) HTML formatting. As noted above, all of these are specified via a Google spreadsheet, thereby optimizing the means by which additional information is added / updated into Firebase
 
-{{< figure src="/images/portfolio/4-acep-empoc/acep-empoc-7.png" class="img-center" height="500" >}}
+{{< figure src="images/acep-empoc-7.png" class="img-center" height="500" >}}

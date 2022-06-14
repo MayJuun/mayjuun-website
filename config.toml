@@ -2,6 +2,8 @@ baseURL = "https://mayjuun.com/"
 languageCode = "en-us"
 title = "MayJuun"
 theme = "timer-hugo"
+enableInlineShortcodes = true
+relativeURLs = true
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -78,6 +80,10 @@ title = "FHIR-FLI"
 content = "FHIR-FLI is an open-source collaborative with the goal of improving healthcare through the use of the FHIR® interoperability standard and the Flutter Toolkit. We believe that lowering the barrier (both technically and monetarily) to entry allows for more innovation, broader applications, and the ability to actually use technology to improve people's lives."
 image = "images/fhirfli/fhir-fli-logo.png"
 
+# Policies Introduction Section
+[params.Policies]
+enable = true
+
 # Call to Action
 [params.cta]
 enable = true
@@ -103,3 +109,41 @@ btnURL = "/contact"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+# Content Security Policy Customization Options
+# spec: https://blog.jeremylikness.com/blog/create-content-security-policy-csp-in-hugo/
+# good intro to src: https://web.dev/csp/
+# then read: https://developer.chrome.com/docs/apps/contentSecurityPolicy/
+[params.csp]
+  defaltsrc = ["'self'"]
+  childsrc = ["'self'"]
+  fontsrc = ["'self'",
+    "https://fonts.googleapis.com",
+    "https://fonts.gstatic.com"]
+  formaction = ["'self'"]
+  framesrc = ["'self'",
+    "https://app.termly.io/",
+    "https://fhirpath.mayjuun.com"]
+  imgsrc = ["'self'",
+    "'unsafe-inline'",
+    "data: w3.org/svg/2000"]
+  objectsrc = ["'none'"]
+  stylesrc = ["'self'",
+    "https://fonts.googleapis.com",
+    "https://www.google-analytics.com",
+    # todo: remove unsafe-inline
+    "'unsafe-inline'",
+    # "'sha256-GAi+Ldn91z47rA1xHn5FobkYa4/KDRa32atszLdYEOg='",
+    # "'sha256-zfmauQIRcXV984Ln5sn3XVdE9Bzuz2C118V11o3zxH0='",
+    # "'sha256-R5Xn4FecL0VHeCqaMPR1eWy6vnuGTSBNMaZGq3dBJ1U='",
+    # "'sha256-WMm2rxgrdLbPiNOT3khywmfmX3KBQRnomQ+oL369Sik='"
+    ]
+  scriptsrc = ["'self'",
+    "'unsafe-inline'",
+    "'unsafe-eval'",
+    "https://app.termly.io/embed-policy.min.js",
+    "https://fhirpath.mayjuun.com",
+    "https://fonts.googleapis.com",
+    "https://www.google-analytics.com"]
+  connectsrc = ["'self'",
+    "https://www.google-analytics.com"]

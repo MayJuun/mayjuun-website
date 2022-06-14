@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section id="policies" class="policies">
+    <div class="container-fluid">
+        <div class="row gallery-row">
+            {{ range $index, $element := .Site.Data.Policies.links }}
+            <div class="col-md-4 col-sm-6 gallery-column">
+                {{ $delay := mul $index 300 }}
+                <figure class="gallery-item wow fadeInLeft animated portfolio-item animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+                    <div class="img-wrapper gallery-item-wrapper">
+                        <div class="blog-content">
+                            <h2 class="blogpost-title">
+                                <a href="{{ .url }}">{{ .title }}</a>
+                            </h2>
+                            {{ with .info }}<p>{{ . }}</p>{{ end }}
+                            {{ with .url }}<a href="{{ . }}" class="btn btn-default btn-details hvr-bounce-to-right">Review</a>{{ end }}
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ end }}

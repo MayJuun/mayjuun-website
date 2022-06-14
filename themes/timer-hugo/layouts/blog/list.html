@@ -2,28 +2,6 @@
 
 {{ partial "page-title.html" . }}
 
-{{ "<!-- FHIR-FLI Description Section Start -->" | safeHTML }}
-<section class="company-description">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
-                {{ with .Site.Data.fhirfli.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
-            </div>
-            <div class="col-md-6">
-                <div class="block">
-                    {{ with .Site.Data.fhirfli.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }}
-                    {{ with .Site.Data.fhirfli.description }}
-                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        {{ . | safeHTML }}
-                    </p>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{{ "<!-- FHIR-FLI Description Section End -->" | safeHTML }}
-
 {{ "<!-- Blog Post Section Start -->" | safeHTML }}
 <section id="blog-full-width">
     <div class="container">

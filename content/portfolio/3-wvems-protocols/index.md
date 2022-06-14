@@ -3,7 +3,7 @@ title: WVEMS Protocols
 description: Interactive, searchable PDFs
 type: portfolio
 date: 2021-11-27T22:54:27Z
-image: images/portfolio/3-wvems-protocols/demo-wvems-protocols.gif
+image: portfolio/3-wvems-protocols/images/demo-wvems-protocols.gif
 client: Western Virginia Emergency Medical Services Council, Inc.
 releaseDate: Oct 5, 2021
 location: Virginia
@@ -33,25 +33,25 @@ If you need help creating / modifying your own PDFs as well, just let us know. T
 
 - PDFs are loaded automatically via the [flutter_pdfview](https://pub.dev/packages/flutter_pdfview) package
 
-{{< figure src="/images/portfolio/3-wvems-protocols/wvems-protocols-1.png" class="img-center" height="500" >}}
+{{< figure src="images/wvems-protocols-1.png" class="img-center" height="500" >}}
 
 - `Navigate` between pages using links on the Table of Contents or swiping up / down. Click on underlined text to go to a linked page. Press the `Home` key to go back to the Table of Contents
 
-{{< figure src="/images/portfolio/3-wvems-protocols/wvems-protocols-2.png" class="img-center" height="500" >}}
+{{< figure src="images/wvems-protocols-2.png" class="img-center" height="500" >}}
 
 - Click the `settings` icon to download other PDFs or to change between light / dark themes
 - This feature uses Firebase authentication and Firebase cloud storage, via [FlutterFire](https://firebase.flutter.dev)
 
-{{< figure src="/images/portfolio/3-wvems-protocols/wvems-protocols-3.png" class="img-center" height="500" >}}
+{{< figure src="images/wvems-protocols-3.png" class="img-center" height="500" >}}
 
 - Use the bar at the top to `search PDF content`, including a history of your last 10 searches
 
-{{< figure src="/images/portfolio/3-wvems-protocols/wvems-protocols-4.png" class="img-center" height="500" >}}
+{{< figure src="images/wvems-protocols-4.png" class="img-center" height="500" >}}
 
 - `Share this app` with others using a single QR code, or download / share the PDFs directly
 
-{{< figure src="/images/portfolio/3-wvems-protocols/wvems-protocols-5.png" class="img-center" height="500" >}}
+{{< figure src="images/wvems-protocols-5.png" class="img-center" height="500" >}}
 
 - `Firebase cloud messaging` makes it so that the EMS agency can send the occasional push notification to its users
 
-{{< figure src="/images/portfolio/3-wvems-protocols/wvems-protocols-6.png" class="img-center" height="500" >}}
+{{< figure src="images/wvems-protocols-6.png" class="img-center" height="500" >}}

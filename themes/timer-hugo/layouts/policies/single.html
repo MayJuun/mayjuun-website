@@ -1,15 +1,26 @@
 {{ define "main" }}
 
-{{ "<!-- Page Header -->" | safeHTML }}
 <section class="global-page-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
                     <h2>{{ .Title }}</h2>
-                    <div class="portfolio-meta">
-                        <span>{{ .Params.description }}</span>
-                    </div>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <p></p><a href="{{ .Site.BaseURL }}">
+                                <i class="ion-ios-home"></i>
+                                Home
+                            </a>
+                            &nbsp; &nbsp;/</p>
+                        </li>
+                        <li class="active list-inline-item">
+                            <a href="../">
+                            {{ .Section }} </a>
+                            &nbsp; &nbsp;/</p></li>
+                        <li class="active list-inline-item">
+                            {{ .Description }}</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -27,34 +38,26 @@
                     <h5>App</h5>
                     <h6>{{ . }}</h6>
                     {{ end }}
-                    {{ with .Params.client }}
-                    <h5>Client</h5>
+                    {{ with .Params.description }}
+                    <h5>Current Policy</h5>
                     <h6>{{ . }}</h6>
                     {{ end }}
-                    {{ with .Params.location }}
-                    <h5>Location</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                    {{ with .Params.releaseDate }}
-                    <h5>Release date</h5>
-                    <h6>{{ . }}</h6>
-                    {{ end }}
-                    {{ with .Params.links }}
-                    <h5>Links</h5>
-                    <h6>
-                        <ul>
-                            {{ range . }}
-                              <li><a href="{{ .url }}" target="_blank" rel="nofollow">{{ .title }}</a></li>
-                            {{ end }}
-                        </ul>
-                    </h6>
-                    {{ end }}
-                    {{ with .Params.Policies }}
                     <h5>Policies</h5>
                     <h6>
                         <ul>
+                            <!-- {{ with .Params.id }}
+                            <li>
+                                
+                                <a class="termly-embed" href="#currently-broken">Table of Contents</a></li>
+                            {{ end }} -->
+                            {{ with .Params.Policies }}
                             {{ range . }}
+                              {{ if or (or (eq .title "Back") (eq .title "EULA" )) (eq .title "Privacy Notice") }}
                               <li><a href="{{ .url }}" target="_self" rel="nofollow">{{ .title }}</a></li>
+                              {{ else }}
+                              <!-- Modify if we want to have different links open in new tabs -->
+                              <li><a href="{{ .url }}" target="_self" rel="nofollow">{{ .title }}</a></li>
+                              {{ end }}
                             {{ end }}
                         </ul>
                     </h6>

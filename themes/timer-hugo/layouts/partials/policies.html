@@ -1,0 +1,32 @@
+{{ if .Site.Params.Policies.enable }} {{ "<!-- FHIR-FLI Section Start -->" | safeHTML }}
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div
+          class="block wow fadeInLeft"
+          data-wow-delay=".3s"
+          data-wow-duration="500ms"
+        >
+          {{ with .Site.Params.Policies.image }}
+          <img src="{{ . | absURL }}" alt="policies" />
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div
+          class="block wow fadeInRight"
+          data-wow-delay=".3s"
+          data-wow-duration="500ms"
+        >
+          {{ with .Site.Params.Policies.title }}
+          <h2>{{ . }}</h2>
+          {{ end }} {{ with .Site.Params.Policies.content }}
+          <p>{{ . | safeHTML }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- FHIR-FLI Section End -->" | safeHTML }} {{ end }}

@@ -6,4 +6,6 @@ author: Grey Faulkenberry, MD MPH
 draft: false
 tags: ["FHIRPath®", "FHIR®"]
 ---
-<meta http-equiv="Refresh" content="0; url='https://fhir-path-demo-mctbmzb4uq-uc.a.run.app'"/>
+
+
+{{< flutter-embed fhirpath.mayjuun.com >}}

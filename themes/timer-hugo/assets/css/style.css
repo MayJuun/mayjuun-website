@@ -548,7 +548,7 @@ a:hover {
   color: #6cba74;
   padding: 15px 34px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-variant: all-small-caps;
 
   /* text-transform: uppercase; */
@@ -927,16 +927,19 @@ article {
   margin-top: 20px;
 }
 
+.blog-content .btn-details:hover {
+  color: #161616;
+}
+
 .blog-content .btn-details {
-  color: #6cba74;
-  padding: 0;
-  background: #6cba74;
   color: #fff;
+  background-color: #009ee3;
   padding: 8px 18px;
-  border-radius: 0;
+  border-radius: 4px;
   margin-top: 15px;
+  margin: auto;
   border: 1px solid #fff;
-  box-shadow: 0px 0px 0px 1px #6cba74;
+  /* box-shadow: 0px 0px 0px 1px #6cba74; */
 }
 
 .blog-post-image {
@@ -1515,6 +1518,10 @@ article {
   font-size: 11px;
   margin-bottom: 0;
   line-height: 20px;
+}
+
+#footer .copyright a:hover {
+  color: #fff;
 }
 
 #footer .copyright a {

@@ -3,7 +3,7 @@ title: PRAPARE Survey
 description: Open-source SDoH Questionnaire
 type: portfolio
 date: 2020-11-19T05:07:05Z
-image: images/portfolio/2-prapare-survey/demo-prapare-survey.gif
+image: portfolio/2-prapare-survey/images/demo-prapare-survey.gif
 releaseDate: N/A
 links: 
   - title: GitHub - Source Code
@@ -18,15 +18,15 @@ This is an open-source work in progress. The Protocol for Responding to and Asse
 
 - Personal Characteristics
 
-{{< figure src="/images/portfolio/2-prapare-survey/prapare-survey-1.png" class="img-center" height="500" >}}
+{{< figure src="images/prapare-survey-1.png" class="img-center" height="500" >}}
 
 - Personal Characteristics, filled out
 
-{{< figure src="/images/portfolio/2-prapare-survey/prapare-survey-2.png" class="img-center" height="500" >}}
+{{< figure src="images/prapare-survey-2.png" class="img-center" height="500" >}}
 
 - Social and Emotional Health
 
-{{< figure src="/images/portfolio/2-prapare-survey/prapare-survey-3.png" class="img-center" height="500" >}}
+{{< figure src="images/prapare-survey-3.png" class="img-center" height="500" >}}
 
 [PRAPARE]: https://www.nachc.org/research-and-data/prapare/
 [LOINC FHIR specification]: https://loinc.org/93025-5/
