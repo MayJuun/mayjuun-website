@@ -109,3 +109,38 @@ btnURL = "/contact"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+# Content Security Policy Customization Options
+# spec: https://blog.jeremylikness.com/blog/create-content-security-policy-csp-in-hugo/
+# good intro to src: https://web.dev/csp/
+# then read: https://developer.chrome.com/docs/apps/contentSecurityPolicy/
+[params.csp]
+  defaltsrc = ["'self'"]
+  childsrc = ["'self'"]
+  fontsrc = ["'self'",
+    "https://fonts.googleapis.com",
+    "https://fonts.gstatic.com"]
+  formaction = ["'self'"]
+  framesrc = ["'self'",
+    "https://fhir-path-demo-mctbmzb4uq-uc.a.run.app"]
+  imgsrc = ["'self'",
+    "'unsafe-inline'",
+    "data: w3.org/svg/2000"]
+  objectsrc = ["'none'"]
+  stylesrc = ["'self'",
+    "https://fonts.googleapis.com",
+    "https://www.google-analytics.com",
+    # todo: remove unsafe-inline
+    "'unsafe-inline'",
+    # "'sha256-GAi+Ldn91z47rA1xHn5FobkYa4/KDRa32atszLdYEOg='",
+    # "'sha256-zfmauQIRcXV984Ln5sn3XVdE9Bzuz2C118V11o3zxH0='",
+    # "'sha256-R5Xn4FecL0VHeCqaMPR1eWy6vnuGTSBNMaZGq3dBJ1U='",
+    # "'sha256-WMm2rxgrdLbPiNOT3khywmfmX3KBQRnomQ+oL369Sik='"
+    ]
+  scriptsrc = ["'self'",
+    "'unsafe-inline'",
+    "'unsafe-eval'",
+    "https://fonts.googleapis.com",
+    "https://www.google-analytics.com"]
+  connectsrc = ["'self'",
+    "https://www.google-analytics.com"]
