@@ -1,8 +1,9 @@
 ---
+draft: true
 title: Radford EMS Protocols
 description: Interactive, searchable PDFs
 type: portfolio
-date: 2021-11-27T22:54:27Z
+date: 2022-07-06T13:19:42Z
 image: portfolio/6-radford-ems/images/demo-radford-protocols.gif
 client: Radford EMS Commission
 releaseDate: Oct 5, 2021

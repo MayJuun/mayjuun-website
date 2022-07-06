@@ -32,7 +32,7 @@ resources:
 ---
 ## NJ InCK HealthStory -
 
-.
+The New Jersey Integrated Care for Kids (NJ InCK) HealthStory app is a cross-platform screening assessment application
 
 ## Features
 
