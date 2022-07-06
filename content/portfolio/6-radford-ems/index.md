@@ -9,7 +9,7 @@ releaseDate: Oct 5, 2021
 location: Virginia
 links: 
   - title: More Info
-    url: https://https://www.radfordva.gov/174/Radford-Emergency-Medical-Services-Commi.org
+    url: https://www.radfordva.gov/174/Radford-Emergency-Medical-Services-Commi
 categories: ["open source","EMS","PDF"]
 
 ---
@@ -31,21 +31,17 @@ If you need help creating / modifying your own PDFs as well, just let us know. T
 
 - `Navigate` between pages using links on the Table of Contents or swiping up / down. Click on underlined text to go to a linked page. Press the `Home` key to go back to the Table of Contents
 
-{{< figure src="images/Radford-protocols-2.png" class="img-center" height="500" >}}
+{{< figure src="images/radford-home.png" class="img-center" height="500" >}}
 
 - Click the `settings` icon to download other PDFs or to change between light / dark themes
 - This feature uses Firebase authentication and Firebase cloud storage, via [FlutterFire](https://firebase.flutter.dev)
 
-{{< figure src="images/Radford-protocols-3.png" class="img-center" height="500" >}}
+{{< figure src="images/radford-settings.png" class="img-center" height="500" >}}
 
 - Use the bar at the top to `search PDF content`, including a history of your last 10 searches
 
 {{< figure src="images/Radford-protocols-4.png" class="img-center" height="500" >}}
 
-- `Share this app` with others using a single QR code, or download / share the PDFs directly
-
-{{< figure src="images/Radford-protocols-5.png" class="img-center" height="500" >}}
-
 - `Firebase cloud messaging` makes it so that the EMS agency can send the occasional push notification to its users
 
-{{< figure src="images/Radford-protocols-6.png" class="img-center" height="500" >}}
+{{< figure src="images/radford-messages.png" class="img-center" height="500" >}}
