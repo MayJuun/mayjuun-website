@@ -5,9 +5,13 @@ type: portfolio
 date: 2022-07-06T13:19:42Z
 image: portfolio/6-radford-ems/images/radford-home.png
 client: Radford EMS Commission
-releaseDate: TBD
+releaseDate: Sept 27, 2022
 location: Virginia
 links: 
+  - title: Apple - App Store
+    url: https://apps.apple.com/gb/app/radfordems/id1629242084
+  - title: Google - Play Store
+    url: https://play.google.com/store/apps/details?id=com.mayjuun.radford.ems
   - title: More Info
     url: https://www.radfordva.gov/174/Radford-Emergency-Medical-Services-Commi
 policies:
