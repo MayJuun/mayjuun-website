@@ -122,7 +122,8 @@ unsafe = true
     "https://fonts.gstatic.com"]
   formaction = ["'self'"]
   framesrc = ["'self'",
-    "fhirpath.mayjuun.com",
+    "https://www.youtube.com/",
+    "https://fhirpath.mayjuun.com/",
     "https://app.termly.io/"]
   imgsrc = ["'self'",
     "'unsafe-inline'",
