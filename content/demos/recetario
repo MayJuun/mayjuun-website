@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Meta Tag</title>
+      <meta http-equiv = "refresh" content = "0; url = https://recetario-dev-mctbmzb4uq-uk.a.run.app?isMockDemo=true" />
+   </head>
+   <body>
+      <p>Redirecting to Recetario</p>
+   </body>
+</html>
