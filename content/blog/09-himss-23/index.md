@@ -2,7 +2,7 @@
 title: "See you at HIMSS '23!"
 date: 2023-04-17T17:13:10Z
 type: post
-image: images/blog/09-himss-23/HIMSS23_logo_blue.jpg
+image: blog/09-himss-23/images/HIMSS23_logo_blue.jpg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["social care", "networking"]
 ---

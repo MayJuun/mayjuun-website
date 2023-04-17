@@ -2,7 +2,7 @@
 title: "Bucket List Accomplished! My First Meta-Blog Post"
 date: 2021-03-25T23:55:46Z
 type: post
-image: images/blog/03-bucket-list/thumbs-up-4200437_1280.jpeg
+image: /blog/03-bucket-list/images/thumbs-up-4200437_1280.jpeg
 author: Matt Mercer
 tags: ["First Post","Bucket List"]
 ---

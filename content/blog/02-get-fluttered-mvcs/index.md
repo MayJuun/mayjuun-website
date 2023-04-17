@@ -2,7 +2,7 @@
 title: "Get Fluttered: MVC+S Architecture, Example"
 date: 2021-01-14T19:52:02Z
 type: post
-image: images/blog/2-get-mvcs/get-mvcs-logo.png
+image: /blog/02-get-fluttered-mvcs/images/get-mvcs-logo.png
 author: John Manning, MD, FAMIA, FACEP
 tags: ["flutter","mvc+s","get_fluttered","prapare","tutorial"]
 ---
@@ -43,7 +43,7 @@ When deciding state / architecture, consider:
 
 Ultimately, we decided upon the [Get](https://pub.dev/packages/get) package to manage state and the GSkinner suggestion on MVC+S for our architecture. Because Get uses its controllers -- not models -- to manage state, we elected to make slight modifications from the original GSkinner approach.
 
-{{< figure src="/images/blog/2-get-mvcs/get-mvcs-diagram.png" title="Get MVC+S Diagram" class="img-center" width="75%" >}}
+{{< figure src="/blog/02-get-fluttered-mvcs/images/get-mvcs-diagram.png" title="Get MVC+S Diagram" class="img-center" width="75%" >}}
 
 ### Working with Streams
 

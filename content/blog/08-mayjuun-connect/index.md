@@ -2,7 +2,7 @@
 title: "MayJuun Connect - Add Contacts via QR Code"
 date: 2022-03-15T00:07:34Z
 type: post
-image: images/blog/08-mayjuun-connect/mayjuun-connect-1.png
+image: /blog/08-mayjuun-connect/images/mayjuun-connect-1.png
 author: John Manning, MD, FAMIA, FACEP
 tags: ["howto", "flutter", "networking", "qr codes"]
 ---
@@ -37,7 +37,7 @@ END:VCARD
 
 Anything in the above code that begins and ends with `xx` needs to be replaced by you. For my purposes, the QR Code from this image:
 
-{{< figure src="/images/blog/08-mayjuun-connect/mayjuun-connect-1.png" width="40%" >}}
+{{< figure src="/blog/08-mayjuun-connect/images/mayjuun-connect-1.png" width="40%" >}}
 
 was generated using these lines of code:
 
@@ -71,7 +71,7 @@ And just like that, you now have a quick means to create a contact free QR-code 
 
 We went a bit above and beyond this idea in our own app, including the ability to harness QR Code links to different sections on our website, a portfolio that demos the work we are most proud of over the last ~year, and a means to quickly show off our [FHIR-FLI efforts](https://fhirfli.dev/). The navigation at the bottom took heavy cues from this [blog post](https://medium.flutterdevs.com/custom-animated-bottomnavigation-bar-in-flutter-65293e231e4a), which seemed very well-designed.
 
-{{< figure src="/images/blog/08-mayjuun-connect/mayjuun-connect.gif" width="40%" >}}
+{{< figure src="/blog/08-mayjuun-connect/images/mayjuun-connect.gif" width="40%" >}}
 
 If any of you are interested in having your own custom-built QR code + interactive app portfolio as a business card, email us at info@mayjuun.com. We'll be happy to create something to your liking!
 

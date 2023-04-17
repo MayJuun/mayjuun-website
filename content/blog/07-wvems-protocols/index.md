@@ -2,7 +2,7 @@
 title: "WVEMS Protocols - Interactive, Searchable PDFs"
 date: 2021-10-05T20:58:00Z
 type: post
-image: images/blog/07-wvems-protocols/wvems-protocols-ios.png
+image: /blog/07-wvems-protocols/images/wvems-protocols-ios.png
 author: John Manning, MD, FAMIA, FACEP
 tags: ["wvems", "flutter", "protocols", "projects"]
 ---
@@ -43,7 +43,7 @@ Interestingly, this was also the first time our company had a client [directly c
 
 Without further ado...here is the finished product:
 
-{{< figure src="/images/blog/07-wvems-protocols/wvems-demo.gif" width="30%" >}}
+{{< figure src="/blog/07-wvems-protocols/images/wvems-demo.gif" width="30%" >}}
 
 ## Features (in Flutter)
 
@@ -60,9 +60,9 @@ For this project, we built an open-source cross-platform Flutter app with the fo
 
 We also created custom WVEMS logos that allow us to display the app in light / dark modes, with background images removed.
 
-{{< figure src="/images/blog/07-wvems-protocols/wvems_logo_light.png" width="50%" >}}
+{{< figure src="/blog/07-wvems-protocols/images/wvems_logo_light.png" width="50%" >}}
 
-{{< figure src="/images/blog/07-wvems-protocols/wvems_logo_dark.png" width="50%"  >}}
+{{< figure src="/blog/07-wvems-protocols/images/wvems_logo_dark.png" width="50%"  >}}
 
 Finally, we set our PDF content + metadata in a standard manner, with resources accessed both inside the [assets folder](https://github.com/MayJuun/wvems_protocols/tree/main/assets/2021-WVEMS-Protocols) and outside (e.g. in Firebase Storage). This allows you to dynamically load folders from the cloud, so that you can add new PDF content dynamically without having to make any changes to your code. Put differently, this allows for an offline-first app that can still be updated via the cloud...but does not require any internet connectivity for day-to-day operations and works 'out of the box' on first install of the app. That was an important feature.
 

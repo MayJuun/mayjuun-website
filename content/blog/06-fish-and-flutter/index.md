@@ -2,7 +2,7 @@
 title: "Fish and Flutter: 5 Step Install"
 date: 2021-05-14T14:04:09Z
 type: post
-image: images/blog/06-fish-and-flutter/pexels-pixabay-207580.jpeg
+image: blog/06-fish-and-flutter/images/pexels-pixabay-207580.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["fish","flutter","homebrew","tutorial"]
 ---

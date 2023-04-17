@@ -2,7 +2,7 @@
 title: "A Meta-Post for a Meta-Blog"
 date: 2020-11-19T13:15:36Z
 type: post
-image: images/blog/01-meta/magic-cube-cube-puzzle-play-54101.jpeg
+image: /blog/01-meta/images/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["meta","howto","informatics","website","hugo"]
 ---
@@ -64,24 +64,24 @@ On my end, repo #2 is what this website actually displays. ~~I make use of two c
 ## Creating a Post
 
 If you haven't yet, fork my [mayjuun-website] repo.
-{{< figure src="/images/blog/01-meta/fork-repo.png" width="75%" >}}
+{{< figure src="/blog/01-meta/images/fork-repo.png" width="75%" >}}
 
 Go to the new fork you just created, and clone it to your desktop.
 
-{{< figure src="/images/blog/01-meta/clone-repo.png" width="75%" >}}
+{{< figure src="/blog/01-meta/images/clone-repo.png" width="75%" >}}
 
 In terminal, in that folder, create a [new branch], and make whatever edits you want in your favorite IDE, such as [VS Code].
 
-Create a new Markdown file in the blog directory `/content/blog/##-MY-POST.md`. Usually, I'll just copy the previous post, update the tags/images at the header, and delete all the text. I put all images for that post in the `/static/images/blog/##/` folder to keep things organized. Finally, if you have Hugo installed as shown below, you can run `hugo serve -D` in terminal at the mayjuun-website folder to see a local copy of this site. This way, each time you save a file, you can see all layout changes in real time.
+Create a new Markdown file in the blog directory `/content/blog/##-MY-POST.md`. Usually, I'll just copy the previous post, update the tags/images at the header, and delete all the text. I put all images for that post in the `/blog/###/images/` folder to keep things organized. Finally, if you have Hugo installed as shown below, you can run `hugo serve -D` in terminal at the mayjuun-website folder to see a local copy of this site. This way, each time you save a file, you can see all layout changes in real time.
 
 The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel free to look at the other `.md` posts as well for tips on handling hyperlinks, videos, etc. Keeping with the open-source theme, consider using [Pexels], [Unsplash], or [Pixabay] when choosing stock images. Finally, if you need an image with custom sizing instead of the default `![YOUR TITLE](YOUR-IMAGE.png)`, use this snippet with `img-right`, `img-left`, or `img-center` based on intended alignment and with your custom `width` for that image:
 
 ```hugo
-{{</* figure src="/images/blog/YOUR-IMAGE.PNG" title="YOUR TITLE" class="img-right" width="75%" */>}}
+{{</* figure src="/blog/###/images/YOUR-IMAGE.PNG" title="YOUR TITLE" class="img-right" width="75%" */>}}
 ```
 
 Here's an example of what a Markdown file looks like
-{{< figure src="/images/blog/01-meta/vs-code.png" width="75%" >}}
+{{< figure src="/blog/01-meta/images/vs-code.png" width="75%" >}}
 
 ---
 
@@ -170,7 +170,6 @@ Let me know if you want me to cover other content about static sites. Next post,
 [meta]: https://en.wikipedia.org/wiki/Meta
 [The Adventure Zone]: https://maximumfun.org/podcasts/adventure-zone/
 [The The Adventure Zone Zone]: https://theadventurezone.fandom.com/wiki/The_%22The_Adventure_Zone%22_Zone
-[meta-theatrical]: https://en.wikipedia.org/wiki/Fourth_wall
 [defines it]: https://www.acgme.org/Portals/0/PFAssets/ProgramRequirements/381_ClinicalInformatics_2020.pdf?ver=2020-06-29-163724-707
 [KOI Pond]: https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0039-1701021
 [Hugo]: https://gohugo.io/about/
@@ -189,7 +188,6 @@ Let me know if you want me to cover other content about static sites. Next post,
 [their steps]: https://gohugo.io/getting-started/quick-start/
 [Homebrew]: https://brew.sh/
 [basic terminal commands]: https://swcarpentry.github.io/2014-04-14-wise/novice/shell/02-create-delete.html
-[Github pages install steps]: https://pages.github.com/
 [a simple python script]: https://rpeshkov.net/blog/update-timestamp-hugo-post/
 [VS Code directly]: https://code.visualstudio.com/docs/editor/versioncontrol#_commit
 [YouTube video]: https://youtu.be/8lGpZkjnkt4

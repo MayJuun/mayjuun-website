@@ -2,7 +2,7 @@
 title: "pdf2json: A Step-by-Step Guide"
 date: 2021-03-26T02:44:38Z
 type: post
-image: images/blog/04-pdf-2-json/ferenc-almasi-HfFoo4d061A-unsplash.jpeg
+image: /blog/04-pdf-2-json/images/ferenc-almasi-HfFoo4d061A-unsplash.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["terminal","json","pdf","tutorial"]
 ---
