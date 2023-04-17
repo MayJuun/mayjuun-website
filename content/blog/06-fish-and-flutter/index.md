@@ -2,7 +2,7 @@
 title: "Fish and Flutter: 5 Step Install"
 date: 2021-05-14T14:04:09Z
 type: post
-image: images/blog/7-fish-and-flutter/pexels-pixabay-207580.jpeg
+image: images/blog/06-fish-and-flutter/pexels-pixabay-207580.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["fish","flutter","homebrew","tutorial"]
 ---
@@ -42,7 +42,7 @@ This installs
 - [Fish shell](https://fishshell.com)
 - [Fisher](https://github.com/jorgebucaran/fisher)
 
-In my first blog post on the [Meta-Blog](https://mayjuun.com/blog/1-meta-post/), I showed how Homebrew can be used as a package manager for Hugo when making websites. It has far more functionality, which we'll see here.
+In my first blog post on the [Meta-Blog](https://mayjuun.com/blog/01-meta-post/), I showed how Homebrew can be used as a package manager for Hugo when making websites. It has far more functionality, which we'll see here.
 
 Once all content has been installed via terminal, I'd also suggest running
 

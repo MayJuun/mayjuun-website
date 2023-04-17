@@ -2,7 +2,7 @@
 title: "A Meta-Post for a Meta-Blog"
 date: 2020-11-19T13:15:36Z
 type: post
-image: images/blog/1-meta/magic-cube-cube-puzzle-play-54101.jpeg
+image: images/blog/01-meta/magic-cube-cube-puzzle-play-54101.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["meta","howto","informatics","website","hugo"]
 ---
@@ -64,11 +64,11 @@ On my end, repo #2 is what this website actually displays. ~~I make use of two c
 ## Creating a Post
 
 If you haven't yet, fork my [mayjuun-website] repo.
-{{< figure src="/images/blog/1-meta/fork-repo.png" width="75%" >}}
+{{< figure src="/images/blog/01-meta/fork-repo.png" width="75%" >}}
 
 Go to the new fork you just created, and clone it to your desktop.
 
-{{< figure src="/images/blog/1-meta/clone-repo.png" width="75%" >}}
+{{< figure src="/images/blog/01-meta/clone-repo.png" width="75%" >}}
 
 In terminal, in that folder, create a [new branch], and make whatever edits you want in your favorite IDE, such as [VS Code].
 
@@ -81,7 +81,7 @@ The [Markdown Cheat Sheet] is a handy resource for Markdown formatting. Feel fre
 ```
 
 Here's an example of what a Markdown file looks like
-{{< figure src="/images/blog/1-meta/vs-code.png" width="75%" >}}
+{{< figure src="/images/blog/01-meta/vs-code.png" width="75%" >}}
 
 ---
 

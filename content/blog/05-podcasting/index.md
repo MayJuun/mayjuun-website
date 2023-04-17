@@ -2,7 +2,7 @@
 title: "Podcasting in an Open-Source Era"
 date: 2021-05-02T15:42:08Z
 type: post
-image: images/blog/6-podcasting/pexels-tommy-lopez-765139.jpeg
+image: images/blog/05-podcasting/pexels-tommy-lopez-765139.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["podcast","code embers","hugo","tutorial"]
 ---
@@ -27,7 +27,7 @@ The Code Embers podcast is built on three separate repos, so that I can have a c
 
 From my end, the first two repos exist as a single folder structure that makes use of a GitHub submodule:
 
-{{< figure src="/images/blog/6-podcasting/site-hierarchy.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/site-hierarchy.png" width="75%" >}}
 
 This allows me to rapidly prototype/build locally, while still providing a means for others to build upon my work without having to dive too far into the repo to see what changes were made on a specific section (namely...the theme).
 
@@ -103,19 +103,19 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 
 - Repo #1 (content) will make use of the private key
 
-{{< figure src="/images/blog/6-podcasting/github-actions1.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/github-actions1.png" width="75%" >}}
 
-{{< figure src="/images/blog/6-podcasting/github-actions2.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/github-actions2.png" width="75%" >}}
 
 - Repo #3 (website) will make use of the public key
 
-{{< figure src="/images/blog/6-podcasting/github-actions3.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/github-actions3.png" width="75%" >}}
 
-{{< figure src="/images/blog/6-podcasting/github-actions4.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/github-actions4.png" width="75%" >}}
 
 - Finally, setup GitHub pages on your public repo
 
-{{< figure src="/images/blog/6-podcasting/github-pages.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/github-pages.png" width="75%" >}}
 
 You can connect this to a custom domain (suggested), but those steps are outside the scope of this article.
 
@@ -250,15 +250,15 @@ Now, whenever you commit a new change, it should work on the proper branch.
 
 When I first checked out a newly cloned repo, the new clone had troubles figuring out what to do with the mp3s that were marked as 'large file storage' items.
   
-{{< figure src="/images/blog/6-podcasting/error.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/error.png" width="75%" >}}
 
 - If you get this error as well, open your new repo in VS Code, go to the Source Control tab, and click the + button to stage your changes...
 
-{{< figure src="/images/blog/6-podcasting/stage-changes.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/stage-changes.png" width="75%" >}}
 
 now your error will mostly resolve.
 
-{{< figure src="/images/blog/6-podcasting/stage-changes2.png" width="75%" >}}
+{{< figure src="/images/blog/05-podcasting/stage-changes2.png" width="75%" >}}
 
 #### Fix: Go Packages / Hugo Modules
 

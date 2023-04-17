@@ -2,7 +2,7 @@
 title: "pdf2json: A Step-by-Step Guide"
 date: 2021-03-26T02:44:38Z
 type: post
-image: images/blog/5-pdf-2-json/ferenc-almasi-HfFoo4d061A-unsplash.jpeg
+image: images/blog/04-pdf-2-json/ferenc-almasi-HfFoo4d061A-unsplash.jpeg
 author: John Manning, MD, FAMIA, FACEP
 tags: ["terminal","json","pdf","tutorial"]
 ---
@@ -62,7 +62,7 @@ I can't say I'm an expert on piping commands through terminal to build optimized
 So I don't forget what each step entails, I'll try to explain each section that was utilized in these two terminal commands below:
 
 - [pdfgrep](https://pdfgrep.org/doc.html) will search for items within a PDF using extended regular expressions. I'm specifically using the `'.*'` expression to get the entire raw file. When testing, add the `--max-count 2` flag
-- pdfgrep data are piped through `sed 'H;1h;$!d;x;y/\n/ /'` to remove all carriage returns, through `sed "s/\"/'/g"` to convert all double quotes to single quotes (so it won't break your JSON), and through `tr -s ' '` to remove all trailing whitespace. The result is saved to `input.txt` with the formatting of: 
+- pdfgrep data are piped through `sed 'H;1h;$!d;x;y/\n/ /'` to remove all carriage returns, through `sed "s/\"/'/g"` to convert all double quotes to single quotes (so it won't break your JSON), and through `tr -s ' '` to remove all trailing whitespace. The result is saved to `input.txt` with the formatting of:
 
 ```terminal
 FILENAME.pdf:1: Lorem ipsum dolor ... FILENAME.pdf:2: Lorem ipsum dolor ... FILENAME.pdf:3: Lorem ipsum dolor ...
