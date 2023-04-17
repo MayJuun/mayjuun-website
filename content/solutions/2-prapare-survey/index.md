@@ -1,9 +1,9 @@
 ---
 title: PRAPARE Survey
 description: Open-source SDoH Questionnaire
-type: portfolio
+type: solutions
 date: 2020-11-19T05:07:05Z
-image: portfolio/2-prapare-survey/images/demo-prapare-survey.gif
+image: solutions/2-prapare-survey/images/demo-prapare-survey.gif
 releaseDate: N/A
 links: 
   - title: GitHub - Source Code

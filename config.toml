@@ -10,29 +10,29 @@ relativeURLs = true
 # Navbar Menus
 
 [[menu.nav]]
-name = "Meta-Blog"
-url = "blog"
+name = "About"
+url = "about"
 weight = 2
+[[menu.nav]]
+name = "Solutions"
+url = "solutions"
+weight = 3
 [[menu.nav]]
 name = "FHIR-FLI"
 url = "fhirfli"
-weight = 3
-[[menu.nav]]
-name = "App Portfolio"
-url = "portfolio"
 weight = 4
+[[menu.nav]]
+name = "Blog"
+url = "blog"
+weight = 5
 # [[menu.nav]]
 # name = "Figma Gallery"
 # url = "gallery"
-# weight = 5
-[[menu.nav]]
-name = "About"
-url = "about"
-weight = 6
-[[menu.nav]]
-name = "Services"
-url = "service"
-weight = 7
+# weight = 6
+# [[menu.nav]]
+# name = "Services"
+# url = "service"
+# weight = 7
 [[menu.nav]]
 name = "Contact"
 url = "contact"
@@ -44,7 +44,7 @@ home = "Home"
 logo = "images/logo-line.png"
 dateFormat = "6 January 2006"
 # Meta data
-description = "MayJuun: Less Clicking, More Doctoring"
+description = "MayJuun: User Interfaces That Work"
 author = "MayJuun"
 # Google Analitycs
 googleAnalitycsID = "UA-50100304-2"
@@ -54,7 +54,12 @@ googleAnalitycsID = "UA-50100304-2"
 enable = true
 bgImage = "images/home.svg"
 heading = "MayJuun"
-description = "Interfaces by Clinicians, for Clinicians"
+description = """
+We create digital solutions that advance health and well-being
+<br>
+Where your interactions mirror your workflows
+"""
+
 # button
 btn = true
 btnText = "Contact Us"
@@ -62,22 +67,22 @@ btnURL = "contact"
 
 # flip text
 [[params.banner.flipText]]
-title = "Less Clicking"
+title = "Where Health >>> Data Entry"
 [[params.banner.flipText]]
-title = "More Doctoring"
+title = "Where UI ~ Workflows"
 
 # Homepage About Section
 [params.about]
 enable = true
 title = "About Us"
-content = "Founded by clinicians, our mission is to streamline the user experience of the technology seen in healthcare. We make healthcare-focused apps so that you can spend your time at the bedside, not the computer."
-image = "images/about/about-us.png"
+content = "Founded by clinicians, we are passionate about providing rapid, seamless access to healthcare information to improve health outcomes...by creating secure and user-friendly applications."
+image = "images/slider.jpg"
 
 # FHIR-FLI Introduction Section
 [params.fhirfli]
 enable = true
 title = "FHIR-FLI"
-content = "FHIR-FLI is an open-source collaborative with the goal of improving healthcare through the use of the FHIR® interoperability standard and the Flutter Toolkit. We believe that lowering the barrier (both technically and monetarily) to entry allows for more innovation, broader applications, and the ability to actually use technology to improve people's lives."
+content = "We created FHIR-FLI, which is an open-source collaborative with the goal of improving healthcare through the use of the FHIR® interoperability standard and the Flutter Toolkit. We believe that lowering the barrier (both technically and monetarily) to entry allows for more innovation, broader applications, and the ability to actually use technology to improve people's lives."
 image = "images/fhirfli/fhir-fli-logo.png"
 
 # Policies Introduction Section

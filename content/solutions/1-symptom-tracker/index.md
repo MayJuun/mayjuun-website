@@ -1,9 +1,9 @@
 ---
 title: AMIA Symptom Tracker
 description: Open-source COVID Symptom Tracker
-type: portfolio
+type: solutions
 date: 2020-11-19T04:49:49Z
-image: portfolio/1-symptom-tracker/images/demo-symptom-tracker.gif
+image: solutions/1-symptom-tracker/images/demo-symptom-tracker.gif
 client: AMIA Virtual Clinical Informatics Conference
 releaseDate: May 19, 2020
 links: 

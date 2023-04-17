@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <div class="block">
                     <h2>{{ .Title }}</h2>
-                    <div class="portfolio-meta">
+                    <div class="solutions-meta">
                         <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
                         <span> Tags:
                             {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}

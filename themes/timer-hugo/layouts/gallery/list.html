@@ -8,7 +8,7 @@
             {{ range $index, $element := .Site.Data.gallery.galleryImages }}
             <div class="col-md-4 col-sm-6 gallery-column">
                 {{ $delay := mul $index 300 }}
-                <figure class="gallery-item wow fadeInLeft animated portfolio-item animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+                <figure class="gallery-item wow fadeInLeft animated solutions-item animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
                     <div class="img-wrapper gallery-item-wrapper">
                         <img src="{{ .image | absURL }}" class="img-fluid" alt="this is a title">
                         <div class="overlay">

@@ -2,9 +2,9 @@
 draft: true
 title: NJ InCK HealthStory
 description: Safe, Secure, Screening Questionnaires
-type: portfolio
+type: solutions
 date: 2022-06-13T15:34:11Z
-image: portfolio/5-njinck-healthstory/images/demo-healthstory-english.gif
+image: solutions/5-njinck-healthstory/images/demo-healthstory-english.gif
 client: NJ Integrated Care for Kids (NJ InCK)
 releaseDate: TBD
 location: USA

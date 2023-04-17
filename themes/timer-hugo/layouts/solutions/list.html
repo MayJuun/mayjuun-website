@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+
+{{ if isset .Params "type" }}
+
 {{ "<!-- Page Header -->" | safeHTML }}
 <section class="global-page-header">
     <div class="container">
@@ -7,7 +10,7 @@
             <div class="col-md-12">
                 <div class="block">
                     <h2>{{ .Title }}</h2>
-                    <div class="portfolio-meta">
+                    <div class="solutions-meta">
                         <span>{{ .Params.description }}</span>
                     </div>
                 </div>
@@ -87,7 +90,53 @@
     </div>
 </section>
 
-{{"<!-- work details part end -->" | safeHTML }}
+{{ else }}
+
+{{ partial "page-title.html" . }}
+
+<section id="blog-full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- use this to temporarily disable drafts... -->
+                <!-- ...range where ( where .Data.Pages "Type" "solutions" ) ".Params.draft" "!=" true... -->
+                {{ range where .Data.Pages "Type" "solutions" }}
+                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                    
+                    <div class="blog-post-image">
+                        <a href="{{ .Permalink }}">
+                             {{ with .Params.image }}<img class="img-fluid post-image w-50" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blogpost-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h2>
+                        <div class="blog-meta">
+                            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+                            {{ with .Params.author }}<span>by
+                                {{ . }}
+                            </span>
+                            {{ end }}
+                            {{ with .Params.category }}
+                            <span>
+                                {{ delimit . ", " }}
+                            </span>
+                            {{ end }}
+                        </div>
+                        <p>
+                            {{ .Summary }}
+                        </p>
+                        {{ with .Permalink }}<a href="{{ . }}" class="btn btn-default btn-details hvr-bounce-to-right">Continue Reading</a>{{ end }}
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
 
 {{ partial "cta.html" . }}
 

@@ -1,9 +1,9 @@
 ---
 title: WVEMS Protocols
 description: Interactive, searchable PDFs
-type: portfolio
+type: solutions
 date: 2021-11-27T22:54:27Z
-image: portfolio/3-wvems-protocols/images/demo-wvems-protocols.gif
+image: solutions/3-wvems-protocols/images/demo-wvems-protocols.gif
 client: Western Virginia Emergency Medical Services Council, Inc.
 releaseDate: Oct 5, 2021
 location: Virginia

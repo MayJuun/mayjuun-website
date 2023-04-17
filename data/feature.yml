@@ -6,7 +6,7 @@ item:
   - icon: ion-android-phone-portrait
     title: Mobile friendly
     description: >
-      We create Android/iOS layouts using a single code base
+      We create Android / iOS / web layouts using a single code base
 
   - icon: ion-ios-pulse-strong
     title: Made by clinicians
@@ -26,7 +26,7 @@ item:
   - icon: ion-erlenmeyer-flask-bubbles
     title: Well tested
     description: >
-      Clinician-developers are ideal for rapid prototyping and iteration
+      Clinician-developers help rapidly prototype and iterate
 
   - icon: ion-stats-bars
     title: Better visualizations

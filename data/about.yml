@@ -1,14 +1,29 @@
 enable: true
-title: By clinicians, for clinicians
+title: By clinicians, dedicated to improving care
 description: >
+  <p> </p>
   We are a mix of clinicians, developers, and clinician-developers who were fed up with the state of technology in healthcare.
   <br>
   <br>
-  The push towards implementing electronic health records has led to a system where a single shift can average <a href="https://www.ncbi.nlm.nih.gov/pubmed/24060331" target="_blank">4,000 clicks</a>. This has led to technology built "for billing" rather than "for health," and it's causing <a href="https://khn.org/news/death-by-a-thousand-clicks/" target="_blank">an epidemic of burnout</a> among providers. 
+  The push towards implementing electronic health records has led to a system where a single shift can average <a href="https://www.ncbi.nlm.nih.gov/pubmed/24060331" target="_blank">4,000 clicks</a>. This results in technology built "for billing" rather than "for health," and it's causing <a href="https://khn.org/news/death-by-a-thousand-clicks/" target="_blank">an epidemic of burnout</a> among providers. 
   <br>
   <br>
-  Thankfully, the technology landscape has changed. We now have the ability to take these designs into our own hands.
-image: images/about/about-company.jpg
+  According to <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2748054" target="_blank">Kroth et al</a>, poorly-designed factors in healthcare may lead to:
+  <br>
+  <table>
+    <tr> <td> "information overload, </td> </tr>
+    <tr> <td> slow system response times, </td> </tr>
+    <tr> <td> excessive data entry, </td> </tr>
+    <tr> <td> inability to navigate the system quickly, </td> </tr>
+    <tr> <td> note bloat, </td> </tr>
+    <tr> <td> interference with the patient clinician relationship, </td> </tr>
+    <tr> <td> fear of missing something, & </td> </tr>
+    <tr> <td> notes geared towards billing." </td> </tr>
+  </table>
+  <br>
+
+  Thankfully, the technology landscape has changed. We now have the ability to take these designs into our own hands. This is where we serve.
+image: images/about/frustrated-clinician.png
 
 # todo: make aboutItems responsive to layout changes
 # Otherwise, aboutItems have to be very similar character lengths.

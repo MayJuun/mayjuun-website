@@ -298,7 +298,7 @@ a:hover {
 }
 
 .global-page-header h2 {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: bold;
   color: #fff;
   /* text-transform: uppercase; */
@@ -306,7 +306,7 @@ a:hover {
 
 .global-page-header .breadcrumb {
   background: none;
-  font-size: 16px;
+  font-size: 20px;
   padding: 8px 0;
   display: block;
 }
@@ -1151,12 +1151,12 @@ article {
   /* vertical-align: center; */
 }
 
-.portfolio-meta span {
+.solutions-meta span {
   margin: 5px 10px;
   font-weight: 300;
 }
 
-.portfolio-meta span a {
+.solutions-meta span a {
   color: #fff;
 }
 

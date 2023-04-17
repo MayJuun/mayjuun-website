@@ -1,4 +1,4 @@
 ---
-title: "Meta-Blog"
+title: "Blog"
 description : "MayJuun -- Blog"
 ---
