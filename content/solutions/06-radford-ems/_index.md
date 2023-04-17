@@ -3,7 +3,7 @@ title: Radford EMS Protocols
 description: Interactive, searchable PDFs
 type: solutions
 date: 2022-07-06T13:19:42Z
-image: solutions/6-radford-ems/images/radford-home.png
+image: solutions/06-radford-ems/images/radford-home.png
 client: Radford EMS Commission
 releaseDate: Sept 27, 2022
 location: Virginia
@@ -30,9 +30,9 @@ This app builds heavily on the use of interactive PDFs. For example, a separate 
 
 ## Customization / Scalability
 
-- All features in the Radford EMS Protocols app are similar to our [WVEMS Protocols](https://mayjuun.com/solutions/3-wvems-protocols/) app, given they are both based on the same [open-source backbone](https://github.com/MayJuun/wvems_protocols).
+- All features in the Radford EMS Protocols app are similar to our [WVEMS Protocols](/solutions/03-wvems-protocols/) app, given they are both based on the same [open-source backbone](https://github.com/MayJuun/wvems_protocols).
 
-- If you are interested in harnessing your own PDF guidelines and protocols, [contact us](https://mayjuun.com/contact/) and we can discuss pricing.
+- If you are interested in harnessing your own PDF guidelines and protocols, [contact us](/contact/) and we can discuss pricing.
 
 ## Features
 

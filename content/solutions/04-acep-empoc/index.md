@@ -3,7 +3,7 @@ title: ACEP emPOC
 description: Emergency Medicine - Point of Care
 type: solutions
 date: 2021-12-10T00:07:59Z
-image: solutions/4-acep-empoc/images/demo-acep-empoc.gif
+image: solutions/04-acep-empoc/images/demo-acep-empoc.gif
 client: American College of Emergency Physicians (ACEP)
 releaseDate: Dec 6, 2021
 location: USA
