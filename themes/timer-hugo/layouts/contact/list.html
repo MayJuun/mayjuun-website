@@ -98,11 +98,10 @@
             {{ with .Site.Data.contact.officeAddress2 }}<h5>{{ . }}</h5>{{ end }}
         </div>
     </div> */}}
-    <br> <br>
-    <div class="col-lg-12 col-sm-6">
-        <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
+    <div class="col-lg-12 col-lg-6">
+        <div class="email float-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
             <i class="ion-ios-email-outline"></i>
-            <p>Email us directly: <br>
+            <p>Or email us directly: <br>
                 <a
                     href="mailto:{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}">{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}</a>
                 <br>{{ with .Site.Data.contact.mail2 }}{{ . }}{{ end }}</p>
