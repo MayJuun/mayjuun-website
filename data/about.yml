@@ -1,11 +1,11 @@
 enable: true
-image1: images/about/about.jpg
+image1: /about/images/about.jpg
 title1: By clinicians, dedicated to improving care
 description1: >
   We are a mix of clinicians, developers, and clinician-developers who were fed up with the state of technology in healthcare.
 
 title2: Problems we solve
-image2: images/about/frustrated-clinician.png
+image2: /about/images/frustrated-clinician.png
 description2: >
   The push towards implementing electronic health records has led to a system where a single shift can average <a href="https://www.ncbi.nlm.nih.gov/pubmed/24060331" target="_blank">4,000 clicks</a>. This results in technology built "for billing" rather than "for health," and it's causing <a href="https://khn.org/news/death-by-a-thousand-clicks/" target="_blank">an epidemic of burnout</a> among providers. 
  
