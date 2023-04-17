@@ -128,7 +128,7 @@ unsafe = true
   formaction = ["'self'",
   # Contact Us form
   "https://formspree.io/f/xpzoezel",
-  # HIMSS form
+  # Outreach form
   "https://formspree.io/f/mdovpqdq",
   ]
   framesrc = ["'self'",
@@ -137,7 +137,9 @@ unsafe = true
     "https://app.termly.io/"]
   imgsrc = ["'self'",
     "'unsafe-inline'",
-    "data: w3.org/svg/2000"]
+    "data: w3.org/svg/2000",
+    "https://www.googletagmanager.com",
+    ]
   objectsrc = ["'none'"]
   stylesrc = ["'self'",
     "https://fonts.googleapis.com",

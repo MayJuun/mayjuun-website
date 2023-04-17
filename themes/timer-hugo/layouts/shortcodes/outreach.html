@@ -1,0 +1,76 @@
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+<section id="contact-section">
+    <div class="block">
+        {{ with .Site.Data.outreach.outreachFormTitle }}<h2 class="subtitle wow fadeInDown" data-wow-duration="500ms"
+            data-wow-delay=".3s">{{ . }}</h2>{{ end }}
+        {{ with .Site.Data.outreach.outreachFormSubtitle }}<p class="subtitle-des wow fadeInDown"
+            data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+        <div class="contact-form">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzoezel"
+                method="post">
+                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
+
+                    <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Your Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        <br>
+                        <label for="email-address">Your Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="your@email_address.com"
+                            required="">
+                        <br>
+                        <label for="email-address">Your Phone</label>
+                        <input type="phone" name="phone" id="phone" placeholder="555-555-5555" required="">
+                        <br>
+                        <label for="company">Your Company / Organization</label>
+                        <input type="text" name="company" id="company" placeholder="Company" required="">
+                        <br>
+                        <label for="message">Comments</label>
+                        <textarea rows="5" name="message" id="message"
+                            placeholder="Let us know your interests and how we can help support you."
+                            required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                </div>
+                <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
+                    <button type="submit" id="contact-submit"
+                        class="btn btn-default btn-send hvr-bounce-to-right" value="Submit">Submit</button>
+                </div>
+            </form>
+            {{/*  <form id="contact-form" method="#" action="#" role="form">
+
+                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
+                    <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                </div>
+
+                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
+                    <input type="email" placeholder="Your Email" class="form-control" name="email"
+                        id="email">
+                </div>
+
+                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+                    <input type="text" placeholder="Subject" class="form-control" name="subject"
+                        id="subject">
+                </div>
+
+                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
+                    <textarea rows="6" placeholder="Message" class="form-control" name="message"
+                        id="message"></textarea>
+                </div>
+
+                <div id="success" class="success">
+                    Thank you. An email has been sent to MayJuun. We will contact you shortly
+                </div>
+
+                <div id="error" class="error">
+                    Sorry, an error occurred. Please try again later.
+                </div>
+
+                <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
+                    <button type="submit" id="contact-submit"
+                        class="btn btn-default btn-send hvr-bounce-to-right" value="Send Message">Send
+                        Message</button>
+                </div>
+            </form>  */}}
+        </div>
+    </div>
+</section>

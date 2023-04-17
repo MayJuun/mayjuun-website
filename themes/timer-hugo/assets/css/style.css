@@ -1049,10 +1049,15 @@ article {
   border-radius: 0;
 }
 
+#contact-section button {
+  width: 20%;
+}
+
 #contact-section input {
   display: block;
   height: 40px;
   padding: 6px 12px;
+  width: 80%;
   font-size: 13px;
   line-height: 1.428571429;
   background-color: #fff;
