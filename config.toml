@@ -57,6 +57,7 @@ heading = "MayJuun"
 description = """
 We create digital solutions that advance health and well-being
 <br>
+<br>
 Where your interactions mirror your workflows
 """
 
@@ -67,9 +68,9 @@ btnURL = "contact"
 
 # flip text
 [[params.banner.flipText]]
-title = "Where Health >>> Data Entry"
+title = "Health >>> Data Entry"
 [[params.banner.flipText]]
-title = "Where UI ~ Workflows"
+title = "UI Mirrors Workflows"
 
 # Homepage About Section
 [params.about]

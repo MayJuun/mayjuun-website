@@ -1,8 +1,8 @@
 enable: true
 image1: /about/images/about.jpg
-title1: By clinicians, dedicated to improving care
+title1: Practicing clinicians, dedicated to improving care
 description1: >
-  We are a mix of clinicians, developers, and clinician-developers who were fed up with the state of technology in healthcare.
+  We are a mix of clinicians, developers, and disruptors who were fed up with the current state of technology in healthcare.
 
 title2: Problems we solve
 image2: /about/images/frustrated-clinician.png
@@ -25,7 +25,11 @@ description3: >
   <br>
 
   <p>
-  Thankfully, the technology landscape has changed. We now have the ability to take these designs into our own hands. This is where we serve.
+  Thankfully, the technology landscape has changed. We now have the ability to take these designs into our own hands.
+  </p>
+  <br>
+  <p>
+  This is where we serve. We build custom, scalable digital solutions whose workflows mirror the work that is actually being done. All the while, we collaborate with others who are similarly motivated to improve care and well-being.
   </p>
 
 # todo: make aboutItems responsive to layout changes
