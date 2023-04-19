@@ -1,8 +1,5 @@
 enable: true
 galleryImages :
-  - image : images/gallery/mayjuun_bg_dark.png
-  - image : images/gallery/mayjuun_bg_contrast.png
-  - image : images/gallery/mayjuun_bg_light.png
-  - image : images/gallery/fhir-fli-logo.png
-  - image : images/gallery/fhir-fli-firefly-only.png
-  - image : images/gallery/fhir-fli-text-only.png
+  - image : solutions/03-wvems-protocols/images/wvems-protocols-6.png
+  - image : solutions/04-acep-empoc/images/demo-acep-empoc.gif
+  - image : solutions/05-njinck-healthstory/images/demo-healthstory-english.gif
