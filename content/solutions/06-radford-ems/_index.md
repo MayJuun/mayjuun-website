@@ -22,6 +22,12 @@ policies:
 categories: ["open source","EMS","PDF"]
 
 ---
+## 2023 Update -
+
+This solution was featured as part of the Nov 2022 [IHE USA](https://www.iheusa.org/) Path to Production series (#6). That video is available here:
+
+{{< youtube ga4atnRC8pQ >}}
+
 ## Radford EMS Protocols -
 
 The Radford EMS Protocols app is a cross-platform Flutter app designed to quickly view, interact, and search through PDFs. The app allows EMTs to access the guidelines and protocols necessary for on-shift patient care.
