@@ -44,7 +44,7 @@ Cuestionario is built in Flutter, which supports 79 language translations by def
 
 #### Multiple Themes and Styles
 
-As white-label applications, both Cuestionario and Recetario may be themed and branded to suit your needs. All content, images, and logos can be modified quickly and effectively to match your suite of applications. This becomes less jarring for end users.
+As white-label applications, both Cuestionario and Recetario may be themed and branded to suit your needs. All content, images, and logos can be modified quickly and effectively to match your own suite of applications. This becomes less jarring for end users and helps establish trust.
 
 {{< figure src="images/cuestionario-theme.gif" class="img-center" height="500" >}}
 
