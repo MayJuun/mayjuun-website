@@ -11,6 +11,8 @@ links:
     url: https://acl.gov/socialcarereferrals
   - title: Gravity Project - Success Story
     url: https://thegravityproject.net/transforming-assessments-and-referrals-for-nj-residents/
+  - title: HIMSS - Case Study
+    url: https://www.hl7.org/documentcenter/public/case-studies/23HL7002_CaseStudy-MayJuun.pdf
   - title: NJ InCK (HealthStory)
     url: https://njinck.org/
   - title: CT InCK (HealthJourney)
@@ -20,7 +22,7 @@ categories: ["surveys","white-label","FHIR®","SDC"]
 ---
 ## Cuestionario -
 
-Cuestionario is an award-winning white-label application that allows for customizable data capture and review of FHIR® compliant assessments. White-label applications may be themed and branded to suit your individual preferences and needs. Cuestionario serves as the patient-facing application for New Jersey's Integrated Care for Kids ([HealthStory](https://njinck.org/)) and Connecticut's Integrated Care for Kids ([HealthJourney](https://cliffordbeersccc.org/ct-inck/)). It has been featured by the [Gravity Project](https://thegravityproject.net/transforming-assessments-and-referrals-for-nj-residents/) and was part of the solution that received the Grand Prize and Bonus Phase Prize by the Administration for Community Living's [Social Care Referrals Challenge](https://acl.gov/socialcarereferrals).
+Cuestionario is an award-winning white-label application that allows for customizable data capture and review of FHIR® compliant assessments. White-label applications may be themed and branded to suit your individual preferences and needs. Cuestionario serves as the patient-facing application for New Jersey's Integrated Care for Kids ([HealthStory](https://njinck.org/)) and Connecticut's Integrated Care for Kids ([HealthJourney](https://cliffordbeersccc.org/ct-inck/)). It has been featured by the [Gravity Project](https://thegravityproject.net/transforming-assessments-and-referrals-for-nj-residents/) and was part of the solution that received the Grand Prize and Bonus Phase Prize by the Administration for Community Living's [Social Care Referrals Challenge](https://acl.gov/socialcarereferrals). The Healthcare Information and Management Systems Society (HIMSS) also published a [case study](https://www.hl7.org/documentcenter/public/case-studies/23HL7002_CaseStudy-MayJuun.pdf) on these efforts in April 2023 ([source](https://www.hl7.org/participate/case-studies/index.cfm)).
 
 A full demonstration of the Cuestionario assessment app, as well as a companion cross-platform application to send/review results (Recetario), can be seen here:
 
