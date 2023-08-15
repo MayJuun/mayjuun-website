@@ -26,3 +26,5 @@ Cheers!
 *The best path forward is one where you are always learning. As a project manager, you should be proud!*
 
 --John
+
+[Image source: Pixabay](https://pixabay.com/photos/thumbs-up-coffee-coffee-beans-4200437/)
