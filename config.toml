@@ -68,9 +68,9 @@ btnURL = "contact"
 
 # flip text
 [[params.banner.flipText]]
-title = "Health >>> Data Entry"
+title = "Experts in FHIR®-based"
 [[params.banner.flipText]]
-title = "UI Mirrors Workflows"
+title = "Applications in Healthcare"
 
 # Homepage About Section
 [params.about]
