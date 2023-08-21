@@ -1,6 +1,6 @@
 ---
 title: "See you at CIVITAS '23!"
-date: 2023-04-17T17:13:10Z
+date: 2023-08-21T13:53:42Z
 type: post
 author: John Manning, MD, FAMIA, FACEP
 tags: ["social care", "networking"]
