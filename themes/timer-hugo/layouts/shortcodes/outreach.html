@@ -6,28 +6,31 @@
         {{ with .Site.Data.outreach.outreachFormSubtitle }}<p class="subtitle-des wow fadeInDown"
             data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
         <div class="contact-form">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzoezel"
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdovpqdq"
                 method="post">
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
 
                     <fieldset id="fs-frm-inputs">
-                        <label for="full-name">Your Name</label>
-                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="name" id="first-name" placeholder="First Name" required="">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="name" id="last-name" placeholder="Last Name" required="">
                         <br>
-                        <label for="email-address">Your Email</label>
+                        <label for="organization">Organization</label>
+                        <input type="text" name="organization" id="organization" placeholder="Organization" required="">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" id="title" placeholder="Title" required="">
+                        <br>
+                        <label for="email-address">Email</label>
                         <input type="email" name="_replyto" id="email-address" placeholder="your@email_address.com"
                             required="">
-                        <br>
-                        <label for="email-address">Your Phone</label>
-                        <input type="phone" name="phone" id="phone" placeholder="555-555-5555" required="">
-                        <br>
-                        <label for="company">Your Company / Organization</label>
-                        <input type="text" name="company" id="company" placeholder="Company" required="">
+                        <label for="phone">Phone</label>
+                        <input type="phone" name="phone" id="phone" placeholder="555-555-5555">
                         <br>
                         <label for="message">Comments</label>
                         <textarea rows="5" name="message" id="message"
                             placeholder="Let us know your interests and how we can help support you."
-                            required=""></textarea>
+                            ></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                     </fieldset>
                 </div>
